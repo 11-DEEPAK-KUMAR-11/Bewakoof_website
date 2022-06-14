@@ -1,14 +1,20 @@
 #bigBox{
-    border: 2px solid red;
-    width: 100%;
+    /* border: 2px solid red; */
+    width: 90%;
     height: auto;
     display: flex;
     justify-content: space-evenly;
+    margin: auto;
+}
+*{
+    margin: 0px;
+    padding: 0px;
 }
 #pro{
     width: 45%;
     height: auto;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    font-family: sans-serif;
 
 }
 #proPic{
@@ -17,6 +23,171 @@
 #details{
    width: 45%;
    height: auto;
-   border: 2px solid yellow;
+   /* border: 2px solid yellow; */
+   
 
 }
+#testpro{
+    font-family:sans-serif!important;
+    font-size: 18px!important;
+    line-height: 35px;
+}
+
+#proName{
+    margin-bottom: 2px;
+    font-size: 24px;
+    font-family: montserrat,sans-serif;
+    line-height: 35px;
+    color:#737373;
+    font-weight: 350;
+}
+
+.prices{
+    display: flex;
+    width: 40%;
+    /* border: 1px solid gray; */
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: -10px;
+    
+}
+
+#offers{
+    color: #00b852;
+    font-family: montserrat,sans-serif!important;
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+
+.sellingPrice{
+
+    font-family: montserrat-semibold,sans-serif!important;
+    font-size: 24px!important;
+    line-height: 24px!important;
+    font-weight: bold;
+}
+.discPrice{
+    text-decoration: line-through;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    font-weight: bold;
+    font-family: montserrat-semibold,sans-serif!important;
+    color :#949494;
+    
+}
+#sign{
+    font-size: 16px;
+    font-weight: bold;
+}
+.inclusive{
+    font-family: montserrat-regular,sans-serif!important;
+    font-size: 14px!important;
+    line-height: 45px!important;
+    /* font-size: 16px; */
+    margin-top: 4px;
+    color: #949494;
+    /* margin-bottom: 10px; */
+}
+.tags{
+    width:25%;
+    text-align: center;
+    background-color: white; color: rgb(0, 0, 0); border: 1px solid rgb(48, 48, 48);
+    font-family: montserrat-regular,sans-serif!important;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 20px;
+}
+.line{
+    width: 90%;
+    height: 1px;
+    color:#EEEEEE;
+    background-color: #EEEEEE;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#tribeCon{
+    width: 90%;
+    color: #333333;
+    font-family: montserrat-regular,sans-serif!important;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#tribeLearnMore{
+    color: #42A2A2;
+}
+
+
+#size{
+    /* border: 1px solid green; */
+    width: 90%;
+    margin-top: 30px;
+}
+#guide{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#guide h3>a{
+    color: #42A2A2;
+    font-family: montserrat-regular,sans-serif!important;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+
+#kuch{
+    width: 60%;
+    height: auto;
+    /* border: 1px solid gray; */
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(6,10%);
+     gap: 30px;
+}
+.nap{
+    height: 46px;
+    width: 46px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-family: montserrat-regular,sans-serif!important;
+}
+
+#addToCart{
+    margin-top: 30px;
+    width: 90%;
+    /* border: 1px solid blue; */
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+#bag{
+    width: 50%;
+    background-color: #ffd84d;
+    border-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    border-radius: 3px;
+}
+#wishlist{
+    width: 35%;
+    border: 2px solid rgb(241, 233, 233);
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+
