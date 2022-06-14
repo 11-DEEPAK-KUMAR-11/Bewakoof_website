@@ -1,0 +1,22 @@
+#bigBox{
+    border: 2px solid red;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+#pro{
+    width: 45%;
+    height: auto;
+    border: 2px solid black;
+
+}
+#proPic{
+    width: 100%;
+}
+#details{
+   width: 45%;
+   height: auto;
+   border: 2px solid yellow;
+
+}
