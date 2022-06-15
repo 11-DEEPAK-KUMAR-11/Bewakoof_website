@@ -311,7 +311,7 @@ function press(elem){
   document.querySelector("#container").innerHTML=""
  // fashionArr.push(elem);
   localStorage.setItem("dataone",JSON.stringify(elem));
-  window.location.href="../product2/addtocart.html"
+  window.location.href="../Product_display&cart/index.html"
 }
 
 
