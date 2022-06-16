@@ -5,9 +5,9 @@ var fashionData = [
         brand : "Bewakoof",
       name: "Women's Black Chibi Friends Boyfriend T-shirt      .",
       rupees:"₹",
-      price: "499",
+      price: 499,
       rupees2:"₹",
-      price2: "999",
+      price2: 999,
       offer : "₹459 For TriBe Members"
      
        },
@@ -18,9 +18,9 @@ var fashionData = [
         brand : "Bewakoof",
       name: "Customizable Women Black Round Neck T-Shirt",
       rupees:"₹",
-      price: "299",
+      price: 299,
       rupees2:"₹",
-      price2: "999",
+      price2: 999,
       offer : "₹279 For TriBe Members",
       
     },
@@ -30,9 +30,9 @@ var fashionData = [
         brand : "Bewakoof",
       name: "Customizable Women Black Round Neck T-Shirt",
       rupees:"₹",
-      price: "299",
+      price: 299,
       rupees2:"₹",
-      price2: "999",
+      price2: 999,
       offer : "₹279 For TriBe Members"
     },
     {
@@ -41,9 +41,9 @@ var fashionData = [
         brand : "Bewakoof",
       name: "Customizable Women Black Round Neck T-Shirt",
       rupees:"₹",
-      price: "299",
+      price: 299,
       rupees2:"₹",
-      price2: "999",
+      price2: 999,
       offer : "₹329 For TriBe Members"
     
     },
@@ -53,9 +53,9 @@ var fashionData = [
         brand : "Bewakoof",
       name: "Customizable Women Black Round Neck T-Shirt",
       rupees:"₹",
-      price: "399",
+      price: 399,
       rupees2:"₹",
-      price2: "₹899",
+      price2: 899,
       offer : "₹369 For TriBe Members"
     },
     {
@@ -64,9 +64,9 @@ var fashionData = [
         brand : "Bewakoof",
       name: "Customizable Women Black Round Neck T-Shirt",
       rupees:"₹",
-      price: "275",
+      price: 275,
       rupees2:"₹",
-      price2: "549",
+      price2: 549,
       offer : "₹259 For TriBe Members"
     },
     {
@@ -75,9 +75,9 @@ var fashionData = [
         brand : "Bewakoof",
       name: "Customizable Women Black Round Neck T-Shirt",
       rupees:"₹",
-      price: "499",
+      price: 499,
       rupees2:"₹",
-      price2: "999",
+      price2: 999,
       offer : "₹459 For TriBe Members"
     },
     {
@@ -86,9 +86,9 @@ var fashionData = [
         brand : "Bewakoof",
       name: "Customizable Women Black Round Neck T-Shirt",
       rupees:"₹",
-      price: "599",
+      price: 599,
       rupees2:"₹",
-      price2: "1299",
+      price2: 1299,
       offer : "₹559 For TriBe Members"
     },
     {
@@ -97,9 +97,9 @@ var fashionData = [
         brand : "Bewakoof",
       name: "Customizable Women Black Round Neck T-Shirt",
       rupees:"₹",
-      price: "349",
+      price: 349,
       rupees2:"₹",
-      price2: "999",
+      price2: 999,
       offer : "₹329 For TriBe Members"
     },
     {
@@ -108,9 +108,9 @@ var fashionData = [
         brand : "Bewakoof",
       name: "Customizable Women Black Round Neck T-Shirt",
       rupees:"₹",
-      price: "499",
+      price: 499,
       rupees2:"₹",
-      price2: "549",
+      price2: 549,
       offer : "₹459 For TriBe Members"
     },
     {
@@ -119,9 +119,9 @@ var fashionData = [
         brand : "Bewakoof",
       name: "Customizable Women Black Round Neck T-Shirt",
       rupees:"₹",
-      price: "499",
+      price: 499,
       rupees2:"₹",
-      price2: "830",
+      price2: 830,
       offer : "₹449 For TriBe Members"
     },
     {
@@ -130,9 +130,9 @@ var fashionData = [
         brand : "Bewakoof",
       name: "Customizable Women Black Round Neck T-Shirt",
       rupees:"₹",
-      price: "275",
+      price: 275,
       rupees2:"₹",
-      price2: "549",
+      price2: 549,
       offer : "₹259 For TriBe Members"
     },
     {
@@ -141,9 +141,9 @@ var fashionData = [
         brand : "Bewakoof",
         name: "Customizable Women Black Round Neck T-Shirt",
         rupees:"₹",
-      price: "499",
+      price: 499,
       rupees2:"₹",
-      price2: "1049",
+      price2: 1049,
       offer : "₹459 For TriBe Members"
     },
     {
@@ -152,9 +152,9 @@ var fashionData = [
         brand : "Bewakoof",
         name: "Customizable Women Black Round Neck T-Shirt",
         rupees:"₹",
-      price: "349",
+      price: 349,
       rupees2:"₹",
-      price2: "999",
+      price2: 999,
       offer : "₹329 For TriBe Members"
     },
     {
@@ -163,9 +163,9 @@ var fashionData = [
         brand : "Bewakoof",
         name: "Customizable Women Black Round Neck T-Shirt",
         rupees:"₹",
-      price: "399",
+      price: 399,
       rupees2:"₹",
-      price2: "1049",
+      price2: 1049,
       offer : "₹379 For TriBe Members"
     },
     
@@ -175,9 +175,9 @@ var fashionData = [
         brand : "Bewakoof",
         name: "Customizable Women Black Round Neck T-Shirt",
         rupees:"₹",
-      price: "199",
+      price: 199,
       rupees2:"₹",
-      price2: "749",
+      price2: 749,
       offer : "₹179 For TriBe Members"
     },
     {
@@ -186,9 +186,9 @@ var fashionData = [
         brand : "Bewakoof",
         name: "Customizable Women Black Round Neck T-Shirt",
         rupees:"₹",
-      price: "599",
+      price: 599,
       rupees2:"₹",
-      price2: "1199",
+      price2: 1199,
       offer : "₹559 For TriBe Members"
     },
     {
@@ -197,9 +197,9 @@ var fashionData = [
          brand : "Bewakoof",
          name: "Customizable Women Black Round Neck T-Shirt",
          rupees:"₹",
-      price: "349",
+      price: 349,
       rupees2:"₹",
-      price2: "999",
+      price2: 999,
       offer : "₹329 For TriBe Members"
     },
     {
@@ -208,9 +208,9 @@ var fashionData = [
         brand : "Bewakoof",
         name: "Customizable Women Black Round Neck T-Shirt",
         rupees:"₹",
-      price: "275",
+      price: 275,
       rupees2:"₹",
-      price2: "749",
+      price2: 749,
       offer : "₹259 For TriBe Members"
     },
     {
@@ -219,9 +219,9 @@ var fashionData = [
         brand : "Bewakoof",
         name: "Customizable Women Black Round Neck T-Shirt",
         rupees:"₹",
-      price: "399",
+      price: 399,
       rupees2:"₹",
-      price2: "1299",
+      price2: 1299,
       offer : "₹279 For TriBe Members"
     },
     {
@@ -230,23 +230,38 @@ var fashionData = [
         brand : "Bewakoof",
         name: "Customizable Women Black Round Neck T-Shirt",
         rupees:"₹",
-      price: "299",
+      price: 299,
       rupees2:"₹",
-      price2: "1099",
+      price2: 1099,
       offer : "₹279 For TriBe Members"
     },
     
     
   ];
 
+  function handlePriceSort(){
+    var selected = document.querySelector("#sortPrice").value;
+    if(selected=="HTL"){
+      fashionData.sort(function(a,b){
+        return b.price - a.price;
+      });
+      displayData(fashionData)
+    }
+    if(selected=="LTH"){
+      fashionData.sort(function(a,b){
+        return a.price - b.price;
+      });
+      displayData(fashionData)
+    }
+  }
+
   //fashionArr=JSON.parse(localStorage.getItem("dataone"))||[];
   
 displayData(fashionData)
 //console.log (fashionArr)
 
-
-
 function displayData(data){
+  document.querySelector("#container").innerHTML="";
   fashionData.forEach(function (elem) {
     //console.log (elem.name)
     var box = document.createElement("div");
@@ -303,15 +318,4 @@ function press(elem){
  // fashionArr.push(elem);
   localStorage.setItem("dataone",JSON.stringify(elem));
   window.location.href="../Product_display&cart/index.html"
-}
-
-
-
-  
-
-   
-
-
-
- 
-  
+} 

@@ -13,9 +13,27 @@
     <!--     
           Navbar will be added
     -->
+    <!-- for sort  -->
+    <div id="category_name">
+      <h1>Casual Shoes (20)</h1>
+    </div>
+    <div id="ra-one">
+      <div id="filter">
+        <h3 id="filter1">FILTERS</h3>
+      </div>
+      <div id="sortPrice1">
+        <select id="sortPrice" onchange="handlePriceSort()">
+          <option>SORT BY Popular</option>
+          <option value="">Popular</option>
+          <option value="">New</option>
+          <option value="HTL">Price: High To Low</option>
+          <option value="LTH">Price: Low To High</option>
+        </select>
+      </div>
+    </div>
+
     <div id="bag">
     <div id = "ra">
-    <h3 id="filter">FILTERS</h3>
       <select id="filterVenue" onChange="handleFilter()" >
         <option >Category</option>
         <option value="t-shirts">T-Shirt</option>

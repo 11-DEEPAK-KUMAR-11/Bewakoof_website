@@ -2,6 +2,11 @@
     margin : 0px;
     padding: 0px;
   }
+  #category_name{
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: -20px;
+  }
   #bag {
     display: flex;
     width : 90%;
@@ -52,6 +57,22 @@
     text-decoration: line-through;
     color: #949494;
     
+  }
+  #ra-one{
+    display: flex;
+    justify-content: space-between;
+    width: 87%;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-bottom: -100px;
+    margin-top: 50px;
+  }
+  #sortPrice1{
+    margin-right: 72px;
+  }
+  #sortPrice{
+    padding: 8px;
+    margin-bottom: 20px;
   }
   img {
       height : 70%;
