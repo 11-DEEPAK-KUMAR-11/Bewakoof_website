@@ -5,9 +5,9 @@ var fashionData = [
         brand : "Bewakoof",
       name: "Men's White Lace Up Sneakers",
       rupees:"₹",
-      price: "299",
+      price: 299,
       rupees2:"₹",
-      price2: "999",
+      price2: 999,
       offer : "₹279 For TriBe Members"
      
        },
@@ -18,9 +18,9 @@ var fashionData = [
         brand : "Bewakoof",
       name: "Men's Black Lace Up Sneakers",
       rupees:"₹",
-      price: "499",
+      price: 499,
       rupees2:"₹",
-      price2: "1299",
+      price2: 1299,
       offer : "₹469 For TriBe Members",
       
     },
@@ -30,9 +30,9 @@ var fashionData = [
         brand : "Bewakoof",
       name: "Men's White Lace Up Sneakers",
       rupees:"₹",
-      price: "299",
+      price: 299,
       rupees2:"₹",
-      price2: "999",
+      price2: 999,
       offer : "₹279 For TriBe Members"
     },
     {
@@ -41,9 +41,9 @@ var fashionData = [
         brand : "Bewakoof",
       name: "Men's White Lace Up Sneakers",
       rupees:"₹",
-      price: "499",
+      price: 499,
       rupees2:"₹",
-      price2: "1299",
+      price2: 1299,
       offer : "₹469 For TriBe Members"
     
     },
@@ -53,9 +53,9 @@ var fashionData = [
         brand : "Bewakoof",
         name: "Men's White Lace Up Sneakers",
         rupees:"₹",
-      price: "399",
+      price: 399,
       rupees2:"₹",
-      price2: "999",
+      price2: 999,
       offer : "₹379 For TriBe Members"
     },
     {
@@ -64,9 +64,9 @@ var fashionData = [
         brand : "Bewakoof",
         name: "Men's White Lace Up Sneakers",
         rupees:"₹",
-      price: "499",
+      price: 499,
       rupees2:"₹",
-      price2: "830",
+      price2: 830,
       offer : "₹459 For TriBe Members"
     },
     {
@@ -75,9 +75,9 @@ var fashionData = [
         brand : "Bewakoof",
         name: "Men's White Lace Up Sneakers",
         rupees:"₹",
-      price: "499",
+      price: 499,
       rupees2:"₹",
-      price2: "999",
+      price2: 999,
       offer : "₹449 For TriBe Members"
     },
     {
@@ -86,9 +86,9 @@ var fashionData = [
         brand : "Bewakoof",
         name: "Men's White Lace Up Sneakers",
         rupees:"₹",
-      price: "449",
+      price: 449,
       rupees2:"₹",
-      price2: "799",
+      price2: 799,
       offer : "₹419 For TriBe Members"
     },
     {
@@ -97,9 +97,9 @@ var fashionData = [
         brand : "Bewakoof",
         name: "Men's White Lace Up Sneakers",
         rupees:"₹",
-      price: "499",
+      price: 499,
       rupees2:"₹",
-      price2: "1299",
+      price2: 1299,
       offer : "₹459 For TriBe Members"
     },
     {
@@ -108,9 +108,9 @@ var fashionData = [
         brand : "Bewakoof",
         name: "Men's White Lace Up Sneakers",
         rupees:"₹",
-      price: "399",
+      price: 399,
       rupees2:"₹",
-      price2: "1099",
+      price2: 1099,
       offer : "₹379 For TriBe Members"
     },
     {
@@ -119,9 +119,9 @@ var fashionData = [
         brand : "Bewakoof",
         name: "Men's White Lace Up Sneakers",
         rupees:"₹",
-      price: "349",
+      price: 349,
       rupees2:"₹",
-      price2: "999",
+      price2: 999,
       offer : "₹329 For TriBe Members"
     },
     {
@@ -130,9 +130,9 @@ var fashionData = [
         brand : "Bewakoof",
         name: "Men's White Lace Up Sneakers",
         rupees:"₹",
-      price: "349",
+      price: 349,
       rupees2:"₹",
-      price2: "999",
+      price2: 999,
       offer : "₹329 For TriBe Members"
     },
     {
@@ -141,9 +141,9 @@ var fashionData = [
         brand : "Bewakoof",
         name: "Men's White Lace Up Sneakers",
         rupees:"₹",
-      price: "299",
+      price: 299,
       rupees2:"₹",
-      price2: "1099",
+      price2: 1099,
       offer : "₹279 For TriBe Members"
     },
     {
@@ -152,9 +152,9 @@ var fashionData = [
         brand : "Bewakoof",
         name: "Men's White Lace Up Sneakers",
         rupees:"₹",
-      price: "299",
+      price: 299,
       rupees2:"₹",
-      price2: "1299",
+      price2: 1299,
       offer : "₹279 For TriBe Members"
     },
     {
@@ -163,9 +163,9 @@ var fashionData = [
         brand : "Bewakoof",
         name: "Men's White Lace Up Sneakers",
         rupees:"₹",
-      price: "299",
+      price: 299,
       rupees2:"₹",
-      price2: "999",
+      price2: 999,
       offer : "₹279 For TriBe Members"
     },
     
@@ -175,9 +175,9 @@ var fashionData = [
         brand : "Bewakoof",
         name: "Men's White Lace Up Sneakers",
         rupees:"₹",
-      price: "299",
+      price: 299,
       rupees2:"₹",
-      price2: "1249",
+      price2: 1249,
       offer : "₹279 For TriBe Members"
     },
     {
@@ -186,9 +186,9 @@ var fashionData = [
         brand : "Bewakoof",
         name: "Men's White Lace Up Sneakers",
         rupees:"₹",
-      price: "299",
+      price: 299,
       rupees2:"₹",
-      price2: "1099",
+      price2: 1099,
       offer : "₹279 For TriBe Members"
     },
     {
@@ -197,9 +197,9 @@ var fashionData = [
          brand : "Bewakoof",
          name: "Men's White Lace Up Sneakers",
          rupees:"₹",
-      price: "299",
+      price: 299,
       rupees2:"₹",
-      price2: "830",
+      price2: 830,
       offer : "₹279 For TriBe Members"
     },
     {
@@ -208,9 +208,9 @@ var fashionData = [
         brand : "Bewakoof",
         name: "Men's White Lace Up Sneakers",
         rupees:"₹",
-      price: "299",
+      price: 299,
       rupees2:"₹",
-      price2: "1299",
+      price2: 1299,
       offer : "₹279 For TriBe Members"
     },
     {
@@ -219,9 +219,9 @@ var fashionData = [
         brand : "Bewakoof",
         name: "Men's White Lace Up Sneakers",
         rupees:"₹",
-      price: "299",
+      price: 299,
       rupees2:"₹",
-      price2: "1299",
+      price2: 1299,
       offer : "₹279 For TriBe Members"
     },
     {
@@ -230,14 +230,30 @@ var fashionData = [
         brand : "Bewakoof",
         name: "Men's White Lace Up Sneakers",
         rupees:"₹",
-      price: "299",
+      price: 299,
       rupees2:"₹",
-      price2: "1099",
+      price2: 1099,
       offer : "₹279 For TriBe Members"
     },
     
     
   ];
+
+  function handlePriceSort(){
+    var selected = document.querySelector("#sortPrice").value;
+    if(selected=="HTL"){
+      fashionData.sort(function(a,b){
+        return b.price - a.price;
+      });
+      displayData(fashionData)
+    }
+    if(selected=="LTH"){
+      fashionData.sort(function(a,b){
+        return a.price - b.price;
+      });
+      displayData(fashionData)
+    }
+  }
 
   //fashionArr=JSON.parse(localStorage.getItem("dataone"))||[];
   
@@ -247,6 +263,7 @@ displayData(fashionData)
 
 
 function displayData(data){
+  document.querySelector("#container").innerHTML="";
   fashionData.forEach(function (elem) {
     //console.log (elem.name)
     var box = document.createElement("div");
@@ -287,23 +304,13 @@ function displayData(data){
     // fashion_price2.style.color = "red"
     var fashion_offer = document.createElement("h4");
     fashion_offer.innerText = elem.offer;
-    
-    // var six=document.createElement("button");
-    // six.innerText="Click Here For Details";
-    // six.style.cursor="pointer";
-
-    // six.addEventListener("click",function(){
-    //     press(elem);
-    // })
-
+  
     fashion_avatar.addEventListener("click",function(){
             press(elem);
         })
-    // box.append(fashion_avatar,  fashion_brand, fashion_name , fashion_price, fashion_offer,six);
     box.append(fashion_avatar, fashion_brand, fashion_name, div3, fashion_offer);
     document.querySelector("#container").append(box);
     //console.log (elem)
-
 
   })
 }
@@ -312,15 +319,4 @@ function press(elem){
  // fashionArr.push(elem);
   localStorage.setItem("dataone",JSON.stringify(elem));
   window.location.href="../Product_display&cart/index.html"
-}
-
-
-
-  
-
-   
-
-
-
- 
-  
+}  
