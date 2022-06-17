@@ -2,8 +2,21 @@
     margin : 0px;
     padding: 0px;
   }
+  #home_bar{
+    display: flex;
+    font-size: 20px;
+    /* margin-bottom: -50px; */
+    margin-top: 50px;
+    margin-left: 100px; 
+  }
+  #homebar_2{
+    text-decoration: none;
+  }
+  #slash{
+    padding: 0px 10px 0px 10px;
+  }
   #category_name{
-    margin-left: 100px;
+    margin-left: 97px;
     margin-top: 50px;
     margin-bottom: -20px;
   }
