@@ -44,7 +44,7 @@
 
 .prices{
     display: flex;
-    width: 40%;
+    width: 100%;
     /* border: 1px solid gray; */
     justify-content: space-evenly;
     margin-top: 20px;
@@ -58,6 +58,8 @@
     font-family: montserrat,sans-serif!important;
     font-size: 20px;
     /* font-weight: bold; */
+    width: 75%;
+    /* border: 1px solid red; */
 }
 
 .sellingPrice{
@@ -160,7 +162,9 @@
     border-radius: 8px;
     font-family: montserrat-regular,sans-serif!important;
 }
-
+.nap:hover{
+    border:2px solid #42A2A2;
+}
 #addToCart{
     margin-top: 30px;
     width: 90%;
@@ -179,15 +183,23 @@
     align-items: center;
     font-family: sans-serif;
     border-radius: 3px;
+    cursor: pointer;
+}
+#bag>img{
+    margin-right: 10px;
 }
 #wishlist{
-    width: 35%;
+    width:40%;
     border: 2px solid rgb(241, 233, 233);
     border-radius: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
+    cursor: pointer;
+}
+#heart{
+    margin-right: 10px;
 }
 
 

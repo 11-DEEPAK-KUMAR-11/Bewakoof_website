@@ -8,6 +8,7 @@
     /* margin-bottom: -50px; */
     margin-top: 50px;
     margin-left: 100px; 
+    font-family: sans-serif;
   }
   #homebar_2{
     text-decoration: none;
@@ -19,12 +20,13 @@
     margin-left: 97px;
     margin-top: 50px;
     margin-bottom: -20px;
+    font-family: sans-serif;
   }
   #bag {
     display: flex;
     width : 90%;
     margin : auto;
-    
+    font-family: sans-serif;
    
   }
   #container {
@@ -79,6 +81,7 @@
     margin: auto;
     margin-bottom: -100px;
     margin-top: 50px;
+    font-family: sans-serif;
   }
   #sortPrice1{
     margin-right: 72px;

@@ -1,0 +1,260 @@
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: rgb(223, 219, 219);
+    
+}
+#navbar div{
+    display: flex;
+    gap: 80px;
+}
+#logo{
+    width: 40%;
+    height: 50px;
+}
+#searchBar{
+    width: 250px;
+    height: 50%;
+    border-radius: 5px;
+    background-color: rgb(223, 219, 219);
+    position: relative;
+    margin-top: 20px;
+}
+ #displayData{
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+img{
+    width: 100%;
+    height: 90%;
+    border-radius: 10px;
+}
+#displayData>div{
+    
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+}
+h2,h4{
+    text-align: center;
+}
+button{
+    display: block;
+    margin: auto;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(146, 70, 217);
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(66, 173, 66);
+    color: black;
+}
+#Box{
+    width: 15%;
+    height: 200px;
+    /* overflow: scroll; */
+    overflow-y: auto;
+    margin-left: 1100px;
+  cursor: pointer; 
+  position: absolute;
+  /* background-color: antiquewhite; */
+}
+a{
+    text-decoration: none;
+    color: black;
+} 
+#Navbar{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 35px 5%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    /* margin-bottom: 120px; */
+  }
+  #searchBar{
+    width: 250px;
+    height: 100%;
+    border-radius: 5px;
+    background-color: rgb(223, 219, 219);
+    /* position: absolute; */
+    margin-top: 8px;
+}
+#logo{
+    width: 60%;
+    margin-top: 8px;
+}
+#Navbar ul{
+    display: flex;
+    list-style:none ;
+}
+
+#Navbar ul li{
+    padding: 8px 15px;
+    border-radius: 10px;
+    transition: 0.2s ease-in;
+}
+
+#Navbar ul li a{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+#Navbar ul li:hover{
+    background-color: antiquewhite;
+}
+
+.dropdown{
+ position: relative;
+ display: inline-block;
+}
+
+.drop-content{
+  display: none;
+  position: absolute;
+  background-color: white;
+  font-size: 16px;
+  top: 34px;
+  z-index: 1;
+  width: 100%;
+  padding: 30px 80px 2px 50px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+.drop-content{
+    display: block;
+    display: none;
+  }
+
+  .dropdown:hover .drop-content{
+    display: block;
+  }
+  .drop-content a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+   
+  }
+
+.dropdown1{
+position: relative;
+display: inline-block;
+}
+
+.drop-content1{
+    display: none;
+    position: absolute;
+    background-color: white;
+    font-size: 16px;
+    top: 34px;
+    z-index: 1;
+    width: 70%;
+    padding: 30px 80px 2px 50px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+    .drop-content1{
+    display: block;
+    display: none;
+    }
+
+    .dropdown1:hover .drop-content1{
+    display: block;
+    }
+    .drop-content1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+
+    }
+
+.dropdown2{
+position: relative;
+display: inline-block;
+}
+
+.drop-content2{
+    display: none;
+    position: absolute;
+    background-color: white;
+    font-size: 16px;
+    top: 34px;
+    z-index: 1;
+    width: 60%;
+    padding: 30px 80px 2px 50px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+.drop-content2{
+    display: block;
+    display: none;
+    }
+
+    .dropdown2:hover .drop-content2{
+    display: block;
+    }
+    .drop-content2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    
+    }
+
+    #container{
+     width: 80%;
+     margin: auto;
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     gap: 30px;
+    }
+
+#container>div{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    cursor: pointer;
+}   
+#container{
+    margin-top: 50px;
+    
+}   
+h6,p,h3,h4,h2{
+    text-align: center;
+    font-size: 22px;
+} 
+img{
+    width: 100%;
+    height: 68%;
+}
+#login{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}  
+
+ #cart{
+    width: 70%;
+    height: 70px; 
+    margin-top: -15px;
+}
+h4{
+    margin-top: 40px;
+}
+#login>a{
+    height: 60px;
+    width: 60%;
+}
+#heart{
+    height: 30px;
+    width: 70%;
+    margin-top: 5px;
+}
+     
+  

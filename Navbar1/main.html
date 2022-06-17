@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./navbar.css">
+    
+</head>
+<body>
+    <div id="navbar">
+        <div>
+            <p>Offers</p>
+            <p>Fanbook</p>
+            <p>Download App</p>
+            <p>Tribe Membership</p>
+        </div>
+        <div>
+            <p>Contact us</p>
+            <p>Track Order</p>
+        </div>
+    </div>
+
+    <div id="Navbar">
+        <div id="bewakoof">
+            <a href="main.html"><img id="logo" src="https://images.bewakoof.com/web/ic-desktop-pride-bwkf-logo.svg" alt=""></a>
+        </div>
+        <div id="Navlinks">
+        <ul>
+            <div class="dropdown">
+                <li><a href="">MEN</a> </li>
+                <div class="drop-content">
+                    <a href="men.html">T-Shirts</a>
+                    <a href="men.html">Sweatshirts</a>
+                    <a href="men.html">Caps</a>
+                    <a href="men.html">Shirts</a>
+                    <a href="men.html">Vests</a>
+                    <a href="men.html">Jackets</a>
+                    <a href="men.html">Henleys</a>
+                    <a href="men.html">Kurtas</a>
+                    <a href="men.html">Sweaters</a>
+                    <a href="men.html">Joggers</a>
+                    <a href="men.html">Trousers</a>
+                    <a href="men.html">Jeans</a>
+                    <a href="men.html">Boxers</a>
+                    <a href="men.html">Combo Offers</a>
+                </div>
+            </div>
+            <div class="dropdown1">
+                <li><a href="">WOMEN</a> </li>
+                <div class="drop-content1">
+                    <a href="women.html">Tops</a>
+                    <a href="women.html">Dresses</a>
+                    <a href="women.html">Kurtis</a>
+                    <a href="women.html">Shirts</a>
+                    <a href="women.html">Vests</a>
+                    <a href="women.html">Jackets</a>
+                    <a href="women.html">Shorts</a>
+                    <a href="women.html">Pajamas</a>
+                    <a href="women.html">Sweaters</a>
+                    <a href="women.html">Joggers</a>
+                    <a href="women.html">Trousers</a>
+                    <a href="women.html">Jeans</a>
+                    <a href="women.html">Pants</a>
+                    <a href="women.html">Combo Offers</a>
+                </div>
+            </div>
+            <div class="dropdown2">
+                <li><a href="">MOBILE COVERS</a></li>
+                <div class="drop-content2">
+                    <a href="mobile.html">Redmi 9</a>
+                    <a href="mobile.html">OnePlus 9R</a>
+                    <a href="mobile.html">OnePLus 9</a>
+                    <a href="mobile.html">OnePlus 8</a>
+                    <a href="mobile.html">Redmi 5</a>
+                    <a href="mobile.html">Samsung</a>
+                    <a href="mobile.html">Redmi7</a>
+                    <a href="mobile.html">Vivo Y73</a>
+                    <a href="mobile.html">Vivo S1</a>
+                    <a href="mobile.html">iPhone 13</a>
+                </div>
+            </div>
+            
+        </ul>
+        </div>   
+        <div>
+            <input oninput="searchFun()" id="searchBar" type="text" placeholder="search by product, category or collection">
+            <!-- <img src="" alt=""> -->
+        </div>
+        <div id="login">
+            <!-- Paste signUp page link here -->
+            <!-- <p><a href="">Login</a></p> -->
+            <a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkd6Vr0KohgxuOGwnToP5QbUqoX0kLgbKhVS7BFsK_3FEjdPrNBn_ONNRvyfaoqZsJj4Y&usqp=CAU" alt=""></a>
+            <a href=""><img id="heart"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2e5ylGcmMat3WUfNcTkqIjeNj5HbrFFKsuQ&usqp=CAU" alt=""></a>
+        </div>
+         <!-- Paste Cart Page link Here -->
+         <a href=""><img id="cart" src="data:image/jpeg;base64,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" alt=""></a>
+    </div>
+
+    <div id="Box"></div>
+
+    <div id="displayData"></div>
+
+    <!-- <div id="container"></div> -->
+</body>
+</html>
+
+<script src="./navbar.js"></script>
