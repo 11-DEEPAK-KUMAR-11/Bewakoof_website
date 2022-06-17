@@ -87,7 +87,7 @@
         #items {
             width: 55%;
             /* border: 1px solid blue; */
-            height:auto;
+            height: auto;
 
         }
 
@@ -145,7 +145,8 @@
             justify-content: center;
             align-items: center;
         }
-        #total{
+
+        #total {
             width: 35%;
             font-family: sans-serif;
             /* border: 1px solid yellow; */
@@ -153,7 +154,8 @@
             font-size: 12px;
             line-height: 20px;
         }
-        #payNow{
+
+        #payNow {
             width: 50%;
             font-family: sans-serif;
             margin-left: 10px;
@@ -164,33 +166,35 @@
             height: 40px;
             border-radius: 6px;
             color: white;
+            cursor: pointer;
         }
 
-        #rupees{
+        #rupees {
             font-size: 20px;
         }
 
-        #boxAppend{
-            height: 250px;
+        #boxAppend {
+            height: auto;
             width: 95%;
             /* margin: auto; */
-            border:1px solid #e7e0e0;
+            border: 1px solid #e7e0e0;
             border-radius: 7px;
             margin-top: 15px;
             margin-bottom: 15px;
         }
 
-        #proBox{
+        #proBox {
             width: 95%;
             margin: auto;
             /* border: 1px solid black; */
             margin-top: 10px;
-            height: 70%;
+            height: 73%;
             display: flex;
             justify-content: space-between;
 
         }
-        #amountDetails{
+
+        #amountDetails {
             width: 60%;
             /* border: 1px solid red; */
             padding: 10px 10px 10px 10px;
@@ -200,39 +204,40 @@
 
         }
 
-        #disprice{
+        #disprice {
             font-family: sans-serif;
             text-decoration: line-through;
         }
 
-        #ofr{
+        #ofr {
             font-family: sans-serif;
             font-weight: bold;
             color: green;
         }
 
-        #imageBox{
+        #imageBox {
             width: 25%;
             /* border: 1px solid blueviolet; */
             height: 100%;
         }
 
-        #imageBox img{
+        #imageBox img {
             width: 100%;
 
         }
-        #removeWish{
+
+        #removeWish {
             width: 95%;
             margin: auto;
             /* border:1px solid #e7e0e0; */
-            height: 25%;
+            height: 50px;
             border-radius: 7px;
-            
+
         }
 
-        #delete{
+        #delete {
             width: 35%;
-            border: 2px solid #e7e0e0 ;
+            border: 2px solid #e7e0e0;
             /* border-top: none; */
             border-left: none;
             border-bottom: none;
@@ -241,9 +246,9 @@
             /* border-radius: 7px; */
         }
 
-        #moveToWishlist{
-            width:65% ;
-            border: 2px solid #e7e0e0 ;
+        #moveToWishlist {
+            width: 65%;
+            border: 2px solid #e7e0e0;
             border-left: none;
             border-bottom: none;
             border-right: none;
@@ -252,23 +257,25 @@
             /* border-radius: 7px; */
         }
 
-        #qnt{
+        #qnt {
             display: flex;
             width: 90%;
             height: 25px;
-            justify-content:space-between;
+            justify-content: space-between;
             align-items: center;
-            margin-top:0px;
+            margin-top: 0px;
         }
-        #quantity{
+
+        #quantity {
             font-family: sans-serif;
         }
 
-        #inc{
+        #inc {
             width: 20px;
             height: 20px;
         }
-        #dec{
+
+        #dec {
             width: 20px;
             height: 20px;
         }
@@ -353,7 +360,7 @@
                 <div id="amountPay">
                     <div id="total">
                         <p>Total</p>
-                       <span>₹ <span id="rupees">0</span></span>
+                        <span>₹ <span id="rupees">0</span></span>
                     </div>
 
                     <div id="payNow">CONTINUE</div>
@@ -367,45 +374,45 @@
 
 </html>
 <script>
-    var receivedProduct=JSON.parse(localStorage.getItem("selectedProduct"));
+    var receivedProduct = JSON.parse(localStorage.getItem("selectedProduct"));
     console.log(receivedProduct);
 
     append(receivedProduct);
-    
-    
-    function append(data)
-    {
-        var total=0;
-        data.forEach(function(el,i){
 
-            
-            let box=document.createElement("div");
-            box.setAttribute("id","boxAppend");
+
+    function append(data) {
+        var total = 0;
+        var saved =0;
+        data.forEach(function (el, index) {
+
+
+            let box = document.createElement("div");
+            box.setAttribute("id", "boxAppend");
 
 
             // product box
-            let box1=document.createElement("div");
-            box1.setAttribute("id","proBox");
+            let box1 = document.createElement("div");
+            box1.setAttribute("id", "proBox");
 
-            let data=document.createElement("div");
-            data.setAttribute("id","amountDetails");
+            let data = document.createElement("div");
+            data.setAttribute("id", "amountDetails");
 
-            let name=document.createElement("p");
-            name.innerText=el.proName;
+            let name = document.createElement("p");
+            name.innerText = el.proName;
 
-            let price=document.createElement("p");
-            price.innerText=el.price;
+            let price = document.createElement("p");
+            price.innerText = el.price;
 
-            let disprice=document.createElement("p");
-            disprice.setAttribute("id","disprice")
-            disprice.innerText=`₹${el.disPrice}`;
+            let disprice = document.createElement("p");
+            disprice.setAttribute("id", "disprice")
+            disprice.innerText = `₹${el.disPrice}`;
 
-            let offer=document.createElement("p");
-            offer.setAttribute("id","ofr")
+            let offer = document.createElement("p");
+            offer.setAttribute("id", "ofr")
             // offer.innerText=`You saved ₹ ${(+(el.disPrice))-(+(el.price))*count}`;
 
             //size section option
- 
+
             var x = document.createElement("SELECT");
             x.setAttribute("id", "mySelect");
 
@@ -439,114 +446,150 @@
             var txl = document.createTextNode("3XL");
             e.appendChild(txl);
 
-            x.append(z,a,b,c,d,e);
+            x.append(z, a, b, c, d, e);
 
             //quantity selection
 
-            let qnt=document.createElement("div");
-            qnt.setAttribute("id","qnt");
+            let qnt = document.createElement("div");
+            qnt.setAttribute("id", "qnt");
 
-            
-            
-            let press1=document.createElement("button");
-            press1.setAttribute("id","inc");
-            press1.innerText="+";
 
-            let press2=document.createElement("button");
-            press2.setAttribute("id","dec");
-            press2.innerText="-";
-            
+
+            let press1 = document.createElement("button");
+            press1.setAttribute("id", "inc");
+            press1.innerText = "+";
+
+            let press2 = document.createElement("button");
+            press2.setAttribute("id", "dec");
+            press2.innerText = "-";
+
             var count;
 
-            if(localStorage.getItem("counterValue")===null)
-            {
-                count=1;
+            if (localStorage.getItem("counterValue") === null) {
+                count = 1;
             }
 
-            else
-            {
-                count=localStorage.getItem("counterValue");
+            else {
+                count = localStorage.getItem("counterValue");
             }
-         //discount
-            offer.innerText=`You saved ₹ ${((+(el.disPrice))-(+(el.price)))*count}`;
+            //discount
+            offer.innerText = `You saved ₹ ${((+(el.disPrice)) - (+(el.price))) * count}`;
 
-            let quantity=document.createElement("p");
-            quantity.setAttribute("id","quantity");
-            quantity.innerText=`Quantity : ${count}`;
+            let quantity = document.createElement("p");
+            quantity.setAttribute("id", "quantity");
+            quantity.innerText = `Quantity : ${count}`;
 
-            press1.addEventListener("click",incre);
-            
-            function incre()
-            {
+            press1.addEventListener("click", incre);
+
+            function incre() {
                 event.preventDefault();
                 count++;
-                quantity.innerText=`Quantity : ${count}`;
-                
-                localStorage.setItem("counterValue",count)
-                
+                quantity.innerText = `Quantity : ${count}`;
+
+                localStorage.setItem("counterValue", count)
+
                 window.location.reload();
             }
 
-            press2.addEventListener("click",decre);
-           
-            function decre()
-            {
+            press2.addEventListener("click", decre);
+
+            function decre() {
                 event.preventDefault();
                 count--;
-                if(count===0)
-                {
-                    count=1;
+                if (count === 0) {
+                    count = 1;
                 }
-                quantity.innerText=`Quantity : ${count}`;
-                
-                localStorage.setItem("counterValue",count);
+                quantity.innerText = `Quantity : ${count}`;
+
+                localStorage.setItem("counterValue", count);
 
                 window.location.reload();
-                
+
             }
 
 
-            qnt.append(quantity,press1,press2)
+            qnt.append(quantity, press1, press2)
 
-            data.append(name,price,disprice,offer,x,qnt);
+            data.append(name, price, disprice, offer, x, qnt);
 
             //calculation of total
-          
-            total=+(el.price)*count;
 
-            document.getElementById("tamount").innerText=total;
-            document.getElementById("bigDiscount").innerText=((+(el.disPrice))-(+(el.price)))*count;
-            document.getElementById("subTotal").innerText=total;
-            document.getElementById("rupees").innerText=total;
-            document.getElementById("saveAmount").innerText=`You are saving ₹ ${((+(el.disPrice))-(+(el.price)))*count} on this order`;
+            total+= +(el.price) * count;
+            saved+=((+(el.disPrice)) - (+(el.price))) * count;
+
+            document.getElementById("tamount").innerText = total;
+            document.getElementById("bigDiscount").innerText =saved;
+            document.getElementById("subTotal").innerText = total;
+            document.getElementById("rupees").innerText = total;
+            
+            document.getElementById("saveAmount").innerText = `You are saving ₹ ${saved} on this order`;
+
+            //payNow option
+            document.getElementById("payNow").addEventListener("click",paynow)
+            function paynow()
+            {
+              var payableAmount={
+                pay:total
+              }
+              console.log(payableAmount);
+
+              localStorage.setItem("payblePaisa",JSON.stringify(payableAmount));
+            }
             // img box
 
-            let imgBox=document.createElement("div");
-            imgBox.setAttribute("id","imageBox");
+            let imgBox = document.createElement("div");
+            imgBox.setAttribute("id", "imageBox");
 
-            let img=document.createElement("img")
-            img.src=el.img;
+            let img = document.createElement("img")
+            img.src = el.img;
 
             imgBox.append(img);
 
-            box1.append(data,imgBox)
+            box1.append(data, imgBox)
 
-            let box2=document.createElement("div");
-            box2.setAttribute("id","removeWish");
+            let box2 = document.createElement("div");
+            box2.setAttribute("id", "removeWish");
 
-            let btn1=document.createElement("button");
-            btn1.innerText="REMOVE";
-            btn1.style.cursor="pointer";
-            btn1.setAttribute("id","delete");
+            let btn1 = document.createElement("button");
+            btn1.innerText = "REMOVE";
+            btn1.style.cursor = "pointer";
+            btn1.setAttribute("id", "delete");
+            btn1.addEventListener("click", function () {
+                removeProduct(el, index)
+            })
 
-            let btn2=document.createElement("button");
-            btn2.innerText="MOVE TO WISHLIST";
-            btn2.style.cursor="pointer";
-            btn2.setAttribute("id","moveToWishlist");
+            let btn2 = document.createElement("button");
+            btn2.innerText = "MOVE TO WISHLIST";
+            btn2.style.cursor = "pointer";
+            btn2.setAttribute("id", "moveToWishlist");
 
-            box2.append(btn1,btn2)
-            box.append(box1,box2);
+            box2.append(btn1, btn2)
+            box.append(box1, box2);
             document.getElementById("items").append(box);
         })
+    }
+
+    function removeProduct(el, index) {
+
+        event.preventDefault();
+        console.log(el);
+
+        event.target.parentNode.remove();
+
+        event.target.parentNode.innerHTML = "";
+
+        window.location.reload();
+        // var removedata=JSON.parse(localStorage.getItem("coffee"))||[];
+
+
+        let data = receivedProduct.filter(function (el, i) {
+
+            if (i !== index) {
+
+                return el;
+            }
+        })
+        localStorage.setItem("selectedProduct", JSON.stringify(data));
+
     }
 </script>

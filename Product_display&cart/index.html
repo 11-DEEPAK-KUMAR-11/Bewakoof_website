@@ -11,6 +11,9 @@
 </head>
 
 <body>
+    <!-- space for navbar  -->
+    
+    <!-- space for navbar  -->
     <div id="bigBox">
         <div id="pro">
             <img id="proPic"
@@ -95,7 +98,21 @@
 
     }
 
+    var chosedProduct=JSON.parse(localStorage.getItem("dataone"));
+    console.log(chosedProduct);
 
+    appendProduct(chosedProduct);
+
+    function appendProduct(data)
+    {
+        data.forEach(function(el){
+            document.getElementById("proPic").src=el.avatar;
+            document.getElementById("proName").innerText=el.name;
+            document.getElementById("paisa").innerText=el.price;
+            document.getElementById("dis").innerText=el.price2;
+            document.getElementById("offers").innerText=el.offer;
+        })
+    }
 
 
     document.querySelector("#bag").addEventListener("click", addToCart)
