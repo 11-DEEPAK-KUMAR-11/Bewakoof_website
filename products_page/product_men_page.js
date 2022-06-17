@@ -252,6 +252,21 @@ var fashionData = [
       });
       displayData(fashionData)
     }
+    if(selected=="popular"){
+      fashionData.sort(function(a){
+        if(a.price>300)
+        {
+          return -1
+        }
+        if(a.price<300){
+          return 1;
+        }
+        else{
+          0;
+        }
+      });
+      displayData(fashionData)
+    }
   }
 
   //fashionArr=JSON.parse(localStorage.getItem("dataone"))||[];
