@@ -10,6 +10,36 @@ var fashionData = [
     price2: 999,
     offer: "₹459 For TriBe Members"
 
+  function handlePriceSort(){
+    var selected = document.querySelector("#sortPrice").value;
+    if(selected=="HTL"){
+      fashionData.sort(function(a,b){
+        return b.price - a.price;
+      });
+      displayData(fashionData)
+    }
+    if(selected=="LTH"){
+      fashionData.sort(function(a,b){
+        return a.price - b.price;
+      });
+      displayData(fashionData)
+    }
+    if(selected=="popular"){
+      fashionData.sort(function(a){
+        if(a.price>300)
+        {
+          return -1
+        }
+        if(a.price<300){
+          return 1;
+        }
+        else{
+          0;
+        }
+      });
+      displayData(fashionData)
+    }
+=======
   },
   {
     avatar:
