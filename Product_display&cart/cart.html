@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #nav {
+            width: 100%;
+            height: 50px;
+            border: 1px solid rgb(202, 196, 196);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        #inside {
+            width: 85%;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /* border: 1px solid green; */
+
+        }
+
+        .box {
+            width: 25%;
+            height: 38px;
+
+
+        }
+
+        .box img {
+            width: 90%;
+            height: 38px;
+            /* border: 1px solid black; */
+        }
+
+        .box>p {
+            color: #b4afaf;
+            font-size: 14px;
+            font-family: montserrat-regular, sans-serif !important;
+
+
+        }
+
+        #email {
+            color: #333333;
+            font-family: montserrat-regular, sans-serif;
+            line-height: 21px;
+            /* font-size: 20px; */
+        }
+
+        #signed {
+            /* border: 1px solid red; */
+            width: 17%;
+
+        }
+
+        #cont {
+            width: 84%;
+            height: auto;
+            /* border: 2px solid red; */
+            margin: auto;
+        }
+
+        #chhota {
+            width: 100%;
+            display: flex;
+            /* border: 2px solid green; */
+            justify-content: space-between;
+            margin-top: 15px;
+            height: auto;
+
+
+        }
+
+        #items {
+            width: 55%;
+            /* border: 1px solid blue; */
+            height:auto;
+
+        }
+
+        #pay {
+            width: 40%;
+            /* border: 1px solid palevioletred; */
+            height: 600px;
+        }
+
+        .calculate {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 87%;
+            /* border: 1px solid red; */
+            margin: auto;
+            margin-top: 10px;
+            height: 22px;
+        }
+
+        #summary {
+            border: 1px solid #e7e0e0;
+            padding-bottom: 15px;
+        }
+
+        #summary p {
+            font-size: sans-serif;
+            color: #a5a2a2;
+            font-size: 14px;
+
+        }
+
+        #saveAmount {
+            width: 85%;
+            border: 1px solid green;
+            height: 20px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            margin: auto;
+            font-size: 12px;
+            font-family: sans-serif;
+            padding-left: 10px;
+            color: green;
+            font-weight: 549;
+            margin-top: 15px;
+            background-color: rgb(197, 221, 197);
+        }
+
+        #amountPay {
+            height: 50px;
+            width: 100%;
+            border: 1px solid #e7e0e0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #total{
+            width: 35%;
+            font-family: sans-serif;
+            /* border: 1px solid yellow; */
+            padding-left: 0px;
+            font-size: 12px;
+            line-height: 20px;
+        }
+        #payNow{
+            width: 50%;
+            font-family: sans-serif;
+            margin-left: 10px;
+            background-color: #42A2A2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40px;
+            border-radius: 6px;
+            color: white;
+        }
+
+        #rupees{
+            font-size: 20px;
+        }
+
+        #boxAppend{
+            height: 250px;
+            width: 95%;
+            /* margin: auto; */
+            border:1px solid #e7e0e0;
+            border-radius: 7px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+        #proBox{
+            width: 95%;
+            margin: auto;
+            /* border: 1px solid black; */
+            margin-top: 10px;
+            height: 70%;
+            display: flex;
+            justify-content: space-between;
+
+        }
+        #amountDetails{
+            width: 60%;
+            /* border: 1px solid red; */
+            padding: 10px 10px 10px 10px;
+            height: 100%;
+            font-family: sans-serif;
+            line-height: 25px;
+
+        }
+
+        #disprice{
+            font-family: sans-serif;
+            text-decoration: line-through;
+        }
+
+        #ofr{
+            font-family: sans-serif;
+            font-weight: bold;
+            color: green;
+        }
+
+        #imageBox{
+            width: 25%;
+            /* border: 1px solid blueviolet; */
+            height: 100%;
+        }
+
+        #imageBox img{
+            width: 100%;
+
+        }
+        #removeWish{
+            width: 95%;
+            margin: auto;
+            /* border:1px solid #e7e0e0; */
+            height: 25%;
+            border-radius: 7px;
+            
+        }
+
+        #delete{
+            width: 35%;
+            border: 2px solid #e7e0e0 ;
+            /* border-top: none; */
+            border-left: none;
+            border-bottom: none;
+            height: 100%;
+            background-color: white;
+            /* border-radius: 7px; */
+        }
+
+        #moveToWishlist{
+            width:65% ;
+            border: 2px solid #e7e0e0 ;
+            border-left: none;
+            border-bottom: none;
+            border-right: none;
+            height: 100%;
+            background-color: white;
+            /* border-radius: 7px; */
+        }
+
+        #qnt{
+            display: flex;
+            width: 90%;
+            height: 25px;
+            justify-content:space-between;
+            align-items: center;
+            margin-top:0px;
+        }
+        #quantity{
+            font-family: sans-serif;
+        }
+
+        #inc{
+            width: 20px;
+            height: 20px;
+        }
+        #dec{
+            width: 20px;
+            height: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="nav">
+        <div id="inside">
+            <div class="box"><img src="https://images.bewakoof.com/web/ic-desktop-pride-bwkf-logo.svg" alt="">
+            </div>
+            <div class="box" id="signed">
+                <p>Signed as</p>
+                <h4 id="email">3511.deepak@gmail.com</h4>
+            </div>
+        </div>
+    </div>
+    <div id="cont">
+        <span class="qty" style="font-family: sans-serif;"><b>My Bag</b></span>
+        <div id="chhota">
+            <div id="items"></div>
+            <div id="pay">
+
+                <div>
+                    <div
+                        style="background-color:#ffd84d;font-family:sans-serif;height:50px;justify-content: center;align-items: center;display: flex;margin-bottom: 15px;border-radius: 4px;">
+                        <p>Save extra <strong>₹60</strong> with TriBe</p>
+                    </div>
+
+                </div>
+                <div>
+                    <div class="offerBox"
+                        style="margin-bottom: 15px; border-radius: 4px; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234);background-color:rgb(255, 255, 255); color: rgb(45, 45, 45);font-family: sans-serif; line-height: 1.44; font-size: 14px; padding: 5px 15px;">
+                        <div>Whistles! Get extra 10% Cashback on prepaid orders above Rs.699. Coupon code - OOF10.
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="offerBox"
+                        style="margin-bottom: 15px; border-radius: 4px; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(255, 255, 255); color: rgb(45, 45, 45); font-family:sans-serif; line-height: 1.44; font-size: 14px; padding: 5px 15px;">
+                        <div>Get upto Rs.200 cashback on orders above Rs.299 on Paytm Wallet and Paytm Postpaid
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="offerBox"
+                        style="margin-bottom: 15px; border-radius: 4px; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(255, 255, 255); color: rgb(45, 45, 45); font-family:sans-serif; line-height: 1.44; font-size: 14px; padding: 5px 15px;">
+                        <div>Whistles! Get extra 20% Cashback on prepaid orders above Rs.499. Coupon code - NEW20.
+                            Applicable for new customers only!</div>
+                    </div>
+                </div>
+
+                <!-- payment -->
+                <div id="summary">
+                    <div style="background-color: #e7e0e0">
+                        <h3
+                            style="height: 40px;display: flex;align-items: center;font-family: sans-serif;font-size: 14px;margin-left: 31px;">
+                            PRICE SUMMARY</h3>
+                    </div>
+                    <div class="calculate">
+                        <p>Total MRP (Incl. of taxes) </p>
+                        <p id="tamount">0</p>
+                    </div>
+                    <div class="calculate">
+                        <p>Delivery Fee </p>
+                        <p style="color:green;">FREE</p>
+                    </div>
+                    <div class="calculate">
+                        <p>Bag Discount </p>
+                        <p id="bigDiscount">0</p>
+                    </div>
+                    <!-- <div class="calculate">
+                        <p>Combo Offer Discount </p>
+                        <p>500</p>
+                    </div> -->
+                    <div class="calculate">
+                        <p>Subtotal </p>
+                        <p id="subTotal">0</p>
+                    </div>
+                    <div id="saveAmount">You are saving ₹ 0 on this order</div>
+                </div>
+                <div id="amountPay">
+                    <div id="total">
+                        <p>Total</p>
+                       <span>₹ <span id="rupees">0</span></span>
+                    </div>
+
+                    <div id="payNow">CONTINUE</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
+<script>
+    var receivedProduct=JSON.parse(localStorage.getItem("selectedProduct"));
+    console.log(receivedProduct);
+
+    append(receivedProduct);
+    
+    
+    function append(data)
+    {
+        var total=0;
+        data.forEach(function(el,i){
+
+            
+            let box=document.createElement("div");
+            box.setAttribute("id","boxAppend");
+
+
+            // product box
+            let box1=document.createElement("div");
+            box1.setAttribute("id","proBox");
+
+            let data=document.createElement("div");
+            data.setAttribute("id","amountDetails");
+
+            let name=document.createElement("p");
+            name.innerText=el.proName;
+
+            let price=document.createElement("p");
+            price.innerText=el.price;
+
+            let disprice=document.createElement("p");
+            disprice.setAttribute("id","disprice")
+            disprice.innerText=`₹${el.disPrice}`;
+
+            let offer=document.createElement("p");
+            offer.setAttribute("id","ofr")
+            // offer.innerText=`You saved ₹ ${(+(el.disPrice))-(+(el.price))*count}`;
+
+            //size section option
+ 
+            var x = document.createElement("SELECT");
+            x.setAttribute("id", "mySelect");
+
+            var z = document.createElement("option");
+            z.setAttribute("value", "Size");
+            var size = document.createTextNode("Size");
+            z.appendChild(size);
+
+            var a = document.createElement("option");
+            a.setAttribute("value", "Size");
+            var s = document.createTextNode("S");
+            a.appendChild(s);
+
+            var b = document.createElement("option");
+            b.setAttribute("value", "Size");
+            var m = document.createTextNode("M");
+            b.appendChild(m);
+
+            var c = document.createElement("option");
+            c.setAttribute("value", "Size");
+            var xl = document.createTextNode("XL");
+            c.appendChild(xl);
+
+            var d = document.createElement("option");
+            d.setAttribute("value", "Size");
+            var dxl = document.createTextNode("2XL");
+            d.appendChild(dxl);
+
+            var e = document.createElement("option");
+            e.setAttribute("value", "Size");
+            var txl = document.createTextNode("3XL");
+            e.appendChild(txl);
+
+            x.append(z,a,b,c,d,e);
+
+            //quantity selection
+
+            let qnt=document.createElement("div");
+            qnt.setAttribute("id","qnt");
+
+            
+            
+            let press1=document.createElement("button");
+            press1.setAttribute("id","inc");
+            press1.innerText="+";
+
+            let press2=document.createElement("button");
+            press2.setAttribute("id","dec");
+            press2.innerText="-";
+            
+            var count;
+
+            if(localStorage.getItem("counterValue")===null)
+            {
+                count=1;
+            }
+
+            else
+            {
+                count=localStorage.getItem("counterValue");
+            }
+         //discount
+            offer.innerText=`You saved ₹ ${((+(el.disPrice))-(+(el.price)))*count}`;
+
+            let quantity=document.createElement("p");
+            quantity.setAttribute("id","quantity");
+            quantity.innerText=`Quantity : ${count}`;
+
+            press1.addEventListener("click",incre);
+            
+            function incre()
+            {
+                event.preventDefault();
+                count++;
+                quantity.innerText=`Quantity : ${count}`;
+                
+                localStorage.setItem("counterValue",count)
+                
+                window.location.reload();
+            }
+
+            press2.addEventListener("click",decre);
+           
+            function decre()
+            {
+                event.preventDefault();
+                count--;
+                if(count===0)
+                {
+                    count=1;
+                }
+                quantity.innerText=`Quantity : ${count}`;
+                
+                localStorage.setItem("counterValue",count);
+
+                window.location.reload();
+                
+            }
+
+
+            qnt.append(quantity,press1,press2)
+
+            data.append(name,price,disprice,offer,x,qnt);
+
+            //calculation of total
+          
+            total=+(el.price)*count;
+
+            document.getElementById("tamount").innerText=total;
+            document.getElementById("bigDiscount").innerText=((+(el.disPrice))-(+(el.price)))*count;
+            document.getElementById("subTotal").innerText=total;
+            document.getElementById("rupees").innerText=total;
+            document.getElementById("saveAmount").innerText=`You are saving ₹ ${((+(el.disPrice))-(+(el.price)))*count} on this order`;
+            // img box
+
+            let imgBox=document.createElement("div");
+            imgBox.setAttribute("id","imageBox");
+
+            let img=document.createElement("img")
+            img.src=el.img;
+
+            imgBox.append(img);
+
+            box1.append(data,imgBox)
+
+            let box2=document.createElement("div");
+            box2.setAttribute("id","removeWish");
+
+            let btn1=document.createElement("button");
+            btn1.innerText="REMOVE";
+            btn1.style.cursor="pointer";
+            btn1.setAttribute("id","delete");
+
+            let btn2=document.createElement("button");
+            btn2.innerText="MOVE TO WISHLIST";
+            btn2.style.cursor="pointer";
+            btn2.setAttribute("id","moveToWishlist");
+
+            box2.append(btn1,btn2)
+            box.append(box1,box2);
+            document.getElementById("items").append(box);
+        })
+    }
+</script>
