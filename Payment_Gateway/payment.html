@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment</title>
+    <link rel="stylesheet" href="./p.css">
+</head>
+<body>
+     <div id="navbar">
+        <div>
+            <img src="https://images.bewakoof.com/web/ic-desktop-pride-bwkf-logo.svg" alt="Bewakoof-Logo">
+        </div>
+        <div id="signup_email">
+            <h6>Signed as</h6>
+            <h3 id="append_email">YourEmail@gmail.com</h3>
+        </div>
+     </div>
+   <hr>
+   
+   <div id="payment_body">
+       <div id="payment_div_sub">
+             <h3 style="font-family: mon;">Choose your payment method</h3>
+             <div id="billing_box">
+                <div id="billing_box_left">
+                            <div id="debit"  class="billing_type">
+                                <img src="https://images.bewakoof.com/web/bank-card-fill-1645697857.svg" alt="">
+                                <p>Debit/Credit Card</p>
+                               
+                            </div>
+                            <div id="wallet" class="billing_type">
+                                <img src="https://images.bewakoof.com/web/Group-1645705428.png" alt="">
+                                 <p>Wallet</p>  
+
+                            </div>
+                             <div id="upi" class="billing_type">
+                             <img src="https://images.bewakoof.com/web/upi-icon-1645705429.png" alt="">
+                              <p>UPI</p>
+                            </div>
+                            <div id="nb" class="billing_type">
+                             <img src="https://images.bewakoof.com/web/nb-icon-1645705428.png" alt="">
+                             <p>Net banking</p>
+                            </div>
+                            <div id="cod" class="billing_type">
+                                <img src="https://images.bewakoof.com/web/cod-icon-1645705427.png" alt="">
+                              <p>Cash On delivery</p>
+                            </div>
+                </div>
+           
+                <div id="billing_box_right"></div>
+             </div>
+       </div>
+       <!-- currently working -->
+       <div id="payment_details">
+            <!-- address -->
+            <div id="address"></div>
+            <!-- Items -->
+            <div id="items">
+                <p>You are paying for these items</p>
+                <div id="appendItems"></div>
+            </div>
+            <!-- pricing -->
+            <div id="pricing">
+                  <h3><b>Price Summary</b></h3>
+                  <div>
+                      <p>Total MRP (Incl. of taxes) </p>
+                      <p id="total_price">prixe#####</p>
+                  </div>
+                  <div>
+                    <p>Delivery Fee </p>
+                    <p id="delivery_fee">price ###</p>
+                  </div>
+                  <div>
+                      <p>Discount on MRP</p>
+                      <p id="discount">price####</p>
+                  </div>
+                  <hr>
+                  <div>
+                    <h4>Final amount</h4>
+                    <h4 id="final_amount">price###</h4>
+                  </div>
+            </div>
+       </div>
+   </div>
+
+
+</body>
+</html>
+
+<script src="./p.js" type="module"></script>

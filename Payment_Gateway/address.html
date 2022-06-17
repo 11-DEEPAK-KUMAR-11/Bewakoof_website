@@ -1,0 +1,95 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Address</title>
+    <style>
+        *{
+            margin: 0px;padding:0px;font-family: montserrat,sans-serif!important;
+        }
+      #container{
+        height:auto;width:60%;border:1px solid black;
+        border-radius: 5px;margin: auto;box-sizing: border-box;padding: 40px;
+      }
+      .input{
+         height:40px;width:100%; border: none;border:0.5px solid gray;border-radius: 5px;display:block;
+         margin:auto;margin-bottom: 10px;box-sizing: border-box;padding:5px;
+         }
+       p{
+        padding:0px;margin:0px;margin-left:3px;
+       } 
+       #button{margin-top: 24px;margin-bottom: none;
+        display: flex;justify-content: center;gap:30px;align-items: center;
+       } 
+       #save_address{
+        padding:14px 30px;margin-bottom: none;background-color: #42A2A2;font-size: 18px;border:1px solid #42A2A2;
+       }
+       #cancel{
+        padding:14px 50px;border:none;border:1px solid #42A2A2;background-color: white;font-size: 18px;
+        color:#42A2A2
+       }
+    </style>
+</head>
+<body>
+     <div id="container">
+        <h1>Add New Address</h1>
+        <p>Full Name</p>
+        <input class="input" type="text" id="name" required >
+        <p>Mobile Number</p>
+        <input class="input" type="text" id="number" required >
+        <p>Pin Code</p>
+        <input class="input" type="text" id="pin_code" required >
+        <p>City</p>
+        <input class="input" type="text" id="city" required >
+        <p>State</p>
+        <input class="input" type="text" id="state" required >
+         <p>Flat no/Buildin ,Street Name</p>
+        <input class="input" type="text" id="flat" required >
+        <p>Area or Locality</p>
+        <input class="input" type="text" id="area" required>
+        <p>Landmark(Optional)</p>
+        <input class="input" type="text" id="landmark">
+        <div id="button">
+            <button id="save_address" onclick="save_address()">SAVE ADDRESS</button>
+            <button id="cancel" onclick="cancel()">CANCEL</button>
+        </div>
+     </div>
+
+
+
+</body>
+</html>
+
+<script>
+  function save_address(){
+     let name = document.getElementById("name").value;
+     let number = document.getElementById("number").value;
+     let pin_code = document.getElementById("pin_code").value;
+     let city = document.getElementById("city").value;
+     let state = document.getElementById("state").value;
+     let flat = document.getElementById("flat").value;
+     let area = document.getElementById("area").value;
+     let landmark = document.getElementById("landmark").value;
+    let buyer_address = {
+        name:name,
+        number:number,
+        pin_code:pin_code,
+        city:city,
+        state:state,
+        flat:flat,
+        area:area,
+        landmark:landmark};
+        //console.log(buyer_address)
+        localStorage.setItem("buyer_address",JSON.stringify(buyer_address))
+        window.location.href="payment.html"
+  }
+  let cancel = ()=>{
+    console.log("ccccc")
+  }
+
+
+</script>

@@ -1,0 +1,252 @@
+
+    *{
+        margin:0px;padding:0px;
+        font-family: montserrat,sans-serif!important;
+    }
+    #navbar{
+    height:50px;width:85%;
+    margin:auto;
+    /* border: 1px solid black; */
+    display:flex;align-items: center;justify-content: space-between;
+    }
+    #navbar>div>img{
+    width:70%;
+    }
+    #signup_email h3{
+      font-weight: lighter;font-size: 16px;
+    }
+    #payment_body{
+        height:auto;width:85%;
+        /* border:1px solid red; */
+        margin: auto;
+        margin-top: 30px;
+        display: flex;
+        /* align-items: center; */
+        justify-content: space-between;
+    }
+    #payment_div_sub{
+    height:100%;width:67%;
+    /* border:1px solid green; */
+   
+    }
+    #payment_div_sub>h3{
+      margin-bottom: 15px;font-size: 17px;color: rgb(77, 76, 76);
+    }
+ 
+    #payment_details{
+    height:100%;width:30%;
+    border-left:1px solid black;
+    }
+    #billing_box{
+    height:90%;width:100%;
+    border:1px solid gray;
+    display: flex;
+    }
+    #billing_box_left{
+    height:100%;width:35%;
+    /* border:1px solid black; */
+    border-right: none;
+    /* border-top: 1px solid black; */
+    }
+    #billing_box_right{
+    height:100%;width:65%;
+    border:0px solid green;
+    }
+    .billing_type{
+    height:79.2px;width:95%;
+    border:1px solid gray;
+    
+    border-top: none;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;padding-left:15px ;
+    
+    
+    }
+
+    .billing_type>img{
+    height:30px;
+    margin-right: 10px;
+
+    }
+   .billing_type:hover{
+    cursor: pointer;
+   }
+   #logo_box{
+    height:50px;width:auto;
+    /* border:1px solid black; */
+    display: flex;align-items: center;
+    justify-content:flex-start;
+   
+   }
+  #logo_box>img{
+    width:7%; margin-left:15px
+  }
+  #input_box{
+    height:auto;width:auto;
+    /* border:1px solid green; */
+    margin-bottom: 20px;
+  }
+  #input_box>input{
+   border: none;
+   border-bottom: 1px solid gray;
+   outline: none;
+    height: 60px;
+    margin: auto;
+    margin-top: 5px;
+    box-sizing: border-box;
+    font-size: 15px;padding-left: 10px;
+    
+  }
+  #input_box>input:nth-child(2){
+    width:55%;margin-right: 37px;
+  }
+  #input_box>input:nth-child(3){
+  
+    width:30%;
+  }
+
+  .full_input{
+    width:95%;
+    
+  }
+  #debit_checkbox{
+    margin-left: 5px;
+    /* background-color: aqua; */
+    padding: 5px 5px;
+  }
+  #debit_checkbox_details{
+    font-size: 16px;margin-left: 15px;color: gray;
+  }
+  #debit_p_tag{
+     color: gray;margin-top: 10px;margin-bottom: 10px;width: 95%;margin: auto;
+  }
+  #button{
+    height:50px;width:95%;border:1px solid #42A2A2;
+    background-color: #42A2A2;
+    margin:auto;
+    border-radius:2px;display: flex;align-items: center;justify-content: center;
+    margin-bottom: 15px;
+    color: white;
+
+
+  }
+ /* WALLET BOX */
+  .wallet_box{
+    height:80px;width:auto;box-sizing: border-box;padding: 10px;
+  
+    border:none;
+    border-bottom: 1px solid gray;
+    display: flex;align-items: center;justify-content: space-between;
+  }
+  .wallet_box>img{
+    width:7%;
+    margin-right: -55%;
+  }
+  /* UPI ID CSSS */
+  #upi_logo{
+      height:50px;width:auto;border:0px solid red;
+      display: flex;align-items: center;
+  }
+  #upi_logo>img{
+    width:10%;
+    margin-left: 10px;
+  }
+  #upi_id{
+    height:50px;width:95%;display:block;margin: auto;
+    border: none;border-bottom: 1px solid gray;outline: none;
+  }
+  #upi_id+h5{
+    color:gray;font-size: 12px;margin-top:3px;
+    margin-left: 12px;font-weight:lighter ;margin-bottom: 30px;
+  }
+  #upi_checkbox{
+    margin-left: 10px;
+  }
+  #upi_id_label{
+      color:gray;margin-left: 10px;
+  }  
+  #verify_btn{
+    height:50px;width:95%;margin: auto;margin-top: 20px;background-color: #42A2A2;color: white;
+    display: flex;align-items: center;justify-content: center;
+    border:1px solid #42A2A2;
+  }
+  /*NET BANKING PARTS*/
+  .nb_box{
+    border: none;
+    height:80px;width:auto;border-bottom:1px solid black;box-sizing: border-box;
+    padding-left: 15px;padding-right: 15px;
+    display: flex;align-items: center;justify-content: space-between;
+
+  }
+  .nb_box p{
+    font-size: 15px;
+    margin-left: -72%;
+  }
+  .nb_box>img{
+    width:8%;
+  }
+  /* CASH ON DELIVERY */
+  #cod_p_tag{
+   margin-left: 15px;margin-top: 15px;margin-bottom: 15px;font-weight: lighter;
+    font-size: 16px;color: gray;letter-spacing: 1px;
+  }
+  #cod_btn{
+    height:50px;width:95%;border:1px solid #42A2A2;border-radius: 5px;
+    margin: auto;
+    display: flex;align-items: center;justify-content: center;
+    background-color: #42A2A2;
+    color:white;
+  }
+
+  /* PAYMENT DETAILS */
+#address{
+  height:70px;width:auto;border-bottom:1px solid gray;
+}
+#items{
+  height:auto;width:auto;border-bottom:1px solid;
+}
+#pricing{
+  height:200px;width:auto;border:0px solid gray;
+}
+#pricing>div{
+  height:auto;width:auto;border:0px solid;display:flex;align-items: center;justify-content:space-between;
+  margin-top: 10px;margin-bottom: 5px;
+}
+#pricing>div>p{
+  color:gray;font-size:15px;
+  font-family: montserrat,sans-serif;
+}
+#pricing>div>h3{
+  font-size: 14px;
+}
+
+/* appendItems div  */
+#appendItems{
+  height:auto;width:auto;border:0px solid black;
+}
+#parent{
+  height:auto;width:auto;border-bottom:1px solid gray;
+  display: flex;
+
+}
+#parent>div:nth-child(1){
+  height:55px;width:60px;border:0px solid red;display: flex;align-items: center;
+  box-sizing: border-box;display: flex;align-items: center;justify-content: center;
+ 
+}
+#parent>div>img{
+  width:70%;
+  
+}
+#parent>div:nth-child(2){
+  height:55px;width:auto;border:0px solid green;overflow: hidden;margin-left: 10px;
+}
+#parent>div>p{
+  font-size: 13px;margin-top: 8px;
+  display: inline-block;color:gray
+}
+
+
+
+
