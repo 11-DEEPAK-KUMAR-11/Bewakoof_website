@@ -132,35 +132,6 @@ let codFun = () =>{
    }
    //DEFAULT CALL DEBIT FUNCTION
    debitFun()
-   let deta = JSON.parse(localStorage.getItem("dummyData"));
-  //  User details from Login Data
-   let {email,name,address:{village,city,State}} = deta;
-
-   let obj = {
-  name:"sahnawaz",
-  email:"sahanwaz@gmail.com",
-  address:{village:"Kutti,",
-           city:"Kishanganj,",
-           State:"Bihar"},
- // price:4300
-}
-localStorage.setItem("dummyData",JSON.stringify(obj));
-// appending email to navabar
-let append_email = document.getElementById("append_email")
-append_email.innerText=email;
-
-// PAYMENT DETAILS
-let address_box = document.getElementById("address");
-
-
-let buyer_name = document.createElement("p")
-buyer_name.innerText=`Delivering order to ${name}`
-
-  address_box.append(buyer_name,village,city,State)
-
-
-
-
   // LOOK at THE ERROE IN CONSOLE
 let userdata=JSON.parse(localStorage.getItem("user"));
 console.log(userdata);
