@@ -6,7 +6,7 @@
     display: flex;
     font-size: 20px;
     /* margin-bottom: -50px; */
-    margin-top: 50px;
+    margin-top: 80px;
     margin-left: 100px; 
     font-family: sans-serif;
   }
@@ -84,7 +84,7 @@
     font-family: sans-serif;
   }
   #sortPrice1{
-    margin-right: 72px;
+    margin-bottom: 50px;
   }
   #sortPrice{
     padding: 8px;
@@ -98,7 +98,6 @@
   #ra {
     width : 20%;
     margin-right: 20px;
-    
     margin-top: 100px;
     margin-left: 20px;
   }
@@ -206,6 +205,12 @@
 #container button:hover{
     text-shadow: 2px 2px 3px blue;;
     background:linear-gradient(to left,rgb(225, 192, 192),rgb(146, 238, 241));
+}
+#username{
+  font-size: 26px;
+  margin-top: 15px;
+  font-family: sans-serif;
+  text-transform: capitalize;
 }
 
 /*<!--------------------------------navbar----------->*/

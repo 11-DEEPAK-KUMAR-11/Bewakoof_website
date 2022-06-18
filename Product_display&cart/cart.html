@@ -535,10 +535,14 @@
                 name:el.proName,
                 price:el.price,
                 discountPrice:el.disPrice
+
               }
               console.log(payableAmount);
-
-              localStorage.setItem("payblePaisa",JSON.stringify(payableAmount));
+              let itmArr=[]
+              itmArr.push(payableAmount);
+              localStorage.setItem("payblePaisa",JSON.stringify(itmArr));
+              
+              window.location.href="../Payment_Gateway/payment.html"
             }
             // img box
 
@@ -574,32 +578,6 @@
         })
     }
 
-
-    // function incre() {
-    //             // event.preventDefault();
-    //             count++;
-    //             quantity.innerText = `Quantity : ${count}`;
-
-    //             localStorage.setItem("counterValue", count)
-
-    //             window.location.reload();
-    //         }
-
-
-            // function decre() {
-            //     // event.preventDefault();
-            //     count--;
-            //     if (count === 0) {
-            //         count = 1;
-            //     }
-            //     quantity.innerText = `Quantity : ${count}`;
-
-            //     localStorage.setItem("counterValue", count);
-
-            //     window.location.reload();
-
-            // }        
-
     function removeProduct(el, index) {
 
         event.preventDefault();
@@ -623,4 +601,9 @@
         localStorage.setItem("selectedProduct", JSON.stringify(data));
 
     }
+    let userdata=JSON.parse(localStorage.getItem('user'));
+// console.log(userdata.username);
+if(userdata!=null){
+document.querySelector("#email").innerText=`${userdata.email}`;
+}
 </script>

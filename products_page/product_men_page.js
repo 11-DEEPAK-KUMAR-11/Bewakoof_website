@@ -335,3 +335,10 @@ function press(elem) {
   localStorage.setItem("dataone", JSON.stringify(product));
   window.location.href = "../Product_display&cart/index.html";
 }
+let userdata=JSON.parse(localStorage.getItem('user'));
+// console.log(userdata.username);
+if(userdata!=null){
+document.querySelector("#username").innerText=`Hi, ${userdata.username}`;
+document.querySelector('#signin').style.display="none"
+document.querySelector('#heart').style.display="none"
+}

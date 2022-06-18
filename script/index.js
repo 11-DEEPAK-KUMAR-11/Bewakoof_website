@@ -659,14 +659,38 @@ function slidingImage1() {
   }
 }
 
+let mimgArrevent=document.querySelectorAll(".mens");
+// console.log(imgArrevent);
+mimgArrevent.forEach(function(ele){
+  // console.log(ele);
+  ele.addEventListener("click",function(){
+    window.location.href="products_page/product_men_page.html"
+  })
+})
+
+let wimgArrevent=document.querySelectorAll(".womens");
+// console.log(imgArrevent);
+wimgArrevent.forEach(function(ele){
+  // console.log(ele);
+  ele.addEventListener("click",function(){
+    window.location.href="products_page/product_women_page.html"
+  })
+})
+
+let aimgArrevent=document.querySelectorAll(".accessories");
+// console.log(imgArrevent);
+aimgArrevent.forEach(function(ele){
+  // console.log(ele);
+  ele.addEventListener("click",function(){
+    window.location.href="products_page/product_accessories_page.html"
+  })
+})
 
 
-
-
-
-
-
-
-
-
-
+let userdata=JSON.parse(localStorage.getItem('user'));
+// console.log(userdata.username);
+if(userdata!=null){
+document.querySelector("#username").innerText=`Hi, ${userdata.username}`;
+document.querySelector('#signin').style.display="none"
+document.querySelector('#heart').style.display="none"
+}

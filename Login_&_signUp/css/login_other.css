@@ -29,6 +29,14 @@ h2{
     width: 60%;
     font-size: 16px;
 }
+#uname{
+    margin-top: 60px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #bcbcbc;
+    width: 60%;
+    font-size: 16px;
+}
 #pass{
     margin-top: 80px;
     border: none;

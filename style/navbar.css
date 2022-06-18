@@ -3,13 +3,21 @@
     justify-content: space-evenly;
     width: 100%;
     height: 30px;
-    background-color: rgba(233, 230, 230, 0.837);
-    gap: 800px;
+    background-color: rgb(233, 230, 230);
+    gap: 80px;
+    position: fixed;
+    top: 0;
+}
+#card1{
+    width: 50%;
+}
+#card2{
+    width: 30%;
 }
 #navbar p{
     margin-top: 0px;
     margin-top: 8px;
-    font-size: 14px;
+    font-size: 12px;
     color: rgb(110, 109, 109);
 }
 #navbar div{
@@ -17,11 +25,11 @@
     gap: 40px;
 }
 #logo{
-    width: 40%;
+    width: 30%;
     height: 50px;
 }
 #Navlinks{
-    margin-left: -380px;
+    margin-left: -300px;
 }
 
  #displayData{
@@ -38,10 +46,10 @@
     border-radius: 10px;
 }
 #displayData>div{
-    
     border-radius: 10px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     cursor: pointer;
+    margin-top: 150px;
 }
 #Title,#Price,#Cat{
     text-align: center;
@@ -49,32 +57,39 @@
 
 #Box{
     width: 20%;
-    height: 200px;
+    height: auto;
     /* overflow: scroll; */
     overflow-y: auto;
     margin-left: 52%;
   cursor: pointer; 
-  position: absolute;
-  
+  position: fixed;
+  margin-top: 50px;
+  background-color: white;
+  padding: 0px 20px;
+  text-align: center;
 }
 
 #Navbar{
+    /* border: 1px solid red; */
     width: 100%;
-    height: 30px;
+    height: 50px;
     display: flex;
     justify-content: space-evenly;
-    padding: 35px 5%;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
-    margin-top: -30px;
+    padding: 10px 5%;
+    margin-top: -20px;
     gap: 20px;
+    border-bottom: 1px solid gray;
+    position: fixed;
+    top: 20;
+    background-color: white;
   }
   #searchBar{
-    width: 350px;
-    height: 50px;
+    width: 300px;
+    height: 40px;
     border-radius: 5px;
     background-color: rgba(233, 230, 230, 0.837);
-    /* position: absolute; */
-    margin-top: 3px;
+    position: relative;
+    margin-top: 8px;
 }
 #logo{
     width: 80%;
@@ -111,7 +126,7 @@
   display: none;
   position: absolute;
   background-color: white;
-  font-size: 16px;
+  font-size: 12px;
   top: 34px;
   z-index: 1;
   width: 100%;
@@ -130,7 +145,7 @@
   .drop-content a{
     text-decoration: none;
     color: black;
-    font-size: 22px;
+    font-size: 16px;
    
   }
 
@@ -162,7 +177,7 @@ display: inline-block;
     .drop-content1 a{
     text-decoration: none;
     color: black;
-    font-size: 22px;
+    font-size: 16px;
 
     }
 
@@ -194,7 +209,7 @@ display: inline-block;
     .drop-content2 a{
     text-decoration: none;
     color: black;
-    font-size: 22px;
+    font-size: 16px;
     
     }
 
@@ -221,8 +236,8 @@ display: inline-block;
 
  #cart{
     width: 65%;
-    height: 70px; 
-    margin-top: 0px;
+    height: 50px; 
+    margin-top: 10px;
 }
 #Title{
     margin-top: 40px;

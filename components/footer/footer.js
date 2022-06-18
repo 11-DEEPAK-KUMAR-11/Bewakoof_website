@@ -31,18 +31,18 @@ function Footer()
           <h2>CONNECT WITH US</h2>
           <div>
             <div class="social">
-              <a href="https://www.facebook.com/bewakoofcom"><img src="./homepage/appimg/facebook.png"></a>
+              <a href="https://www.facebook.com/bewakoofcom"><img src="/homepage/appimg/facebook.png"></a>
               <h3>4.7M People Like this</h3>
             </div>
             <div class="social">
-              <a href="https://www.instagram.com/bewakoofofficial/"><img src="./homepage/appimg/insta.webp"></a>
+              <a href="https://www.instagram.com/bewakoofofficial/"><img src="/homepage/appimg/insta.webp"></a>
               <h3>1M Followers</h3>
             </div>
             <div class="social">
-              <a href="https://twitter.com/bewakoof"><img src="./homepage/appimg/twitter.png"></a>
-              <a href="https://www.pinterest.com/bewakoof/"><img src="./homepage/appimg/pinterest.jpg"></a>
-              <a href="https://www.snapchat.com/add/bewakoof_tv"><img src="./homepage/appimg/snapchat.jpg"></a>
-              <a href="https://apps.apple.com/in/app/bewakoof/id1100190514"><img src="./homepage/appimg/apple.png"></a>
+              <a href="https://twitter.com/bewakoof"><img src="/homepage/appimg/twitter.png"></a>
+              <a href="https://www.pinterest.com/bewakoof/"><img src="/homepage/appimg/pinterest.jpg"></a>
+              <a href="https://www.snapchat.com/add/bewakoof_tv"><img src="/homepage/appimg/snapchat.jpg"></a>
+              <a href="https://apps.apple.com/in/app/bewakoof/id1100190514"><img src="/homepage/appimg/apple.png"></a>
             </div>
           </div>
         </div>
@@ -59,11 +59,11 @@ function Footer()
 
         <div class="footer_policy">
           <div>
-            <img src="./homepage/appimg/return.jpg">
+            <img src="/homepage/appimg/return.jpg">
             <h3>15 Days return policy*</h3>
           </div>
           <div>
-            <img src="./homepage/appimg/cash.jpg">
+            <img src="/homepage/appimg/cash.jpg">
             <h3>Cash On delivery*</h3>
           </div>
         </div>
@@ -71,15 +71,15 @@ function Footer()
         <div class="footer_app">
           <h2>DOWNLOAD THE APP</h2>
           <div>
-            <a href="https://play.google.com/store/apps/details?id=com.bewakoof.bewakoof&hl=en"><img src="./homepage/appimg/app_android_v1.webp"></a>
-            <a href="https://apps.apple.com/in/app/bewakoof/id1100190514"><img src="./homepage/appimg/app_ios_v1.webp"></a>
+            <a href="https://play.google.com/store/apps/details?id=com.bewakoof.bewakoof&hl=en"><img src="/homepage/appimg/app_android_v1.webp"></a>
+            <a href="https://apps.apple.com/in/app/bewakoof/id1100190514"><img src="/homepage/appimg/app_ios_v1.webp"></a>
           </div>
         </div>
 
         <div class="footer_pay">
           <h2>100% SECURE PAYMENT</h2>
           <div>
-            <img src="./homepage/appimg/secure-payments-image.webp">
+            <img src="/homepage/appimg/secure-payments-image.webp">
           </div>
         </div>
 

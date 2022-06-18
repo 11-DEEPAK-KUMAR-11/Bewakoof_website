@@ -226,7 +226,9 @@
   height:auto;width:auto;border:0px solid black;
 }
 #parent{
-  height:auto;width:auto;border-bottom:1px solid gray;
+  height:70px;
+  width:auto;
+  border-bottom:1px solid gray;
   display: flex;
 
 }
@@ -237,10 +239,13 @@
 }
 #parent>div>img{
   width:70%;
-  
 }
 #parent>div:nth-child(2){
-  height:55px;width:auto;border:0px solid green;overflow: hidden;margin-left: 10px;
+  height:55px;
+  width:auto;
+  border:0px solid green;
+  /* overflow: hidden; */
+  margin-left: 10px;
 }
 #parent>div>p{
   font-size: 13px;margin-top: 8px;

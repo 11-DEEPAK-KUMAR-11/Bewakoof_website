@@ -20,16 +20,16 @@ let appendFun = (data)=>{
 
         let Image = document.createElement("img");
         Image.src = el.image;
-
+        Image.setAttribute("id","Image")
         let Title = document.createElement("h4");
         Title.innerText = el.title;
-
+        Title.setAttribute("id","Title")
         let Price = document.createElement("h4");
         Price.innerText = el.price;
-
+        Price.setAttribute("id","Price")
         let Category = document.createElement("h2");
         Category.innerText = el.category;
-        
+        Category.setAttribute("id","Cat")
         card.append(Image,Category,Title,Price);
         // let btn = document.createElement("button");
         // btn.innerText = "Buy";

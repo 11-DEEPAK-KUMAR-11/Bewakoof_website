@@ -7,20 +7,21 @@
    
    //console.log(delivery_day)
 
-// let items_data = [{img:"https://images.bewakoof.com/t320/i-m-your-father-oversized-fit-t-shirt-509669-1655219508-1.jpg",
-//  price:499,save:1599},{img:"https://images.bewakoof.com/t320/i-m-your-father-oversized-fit-t-shirt-509669-1655219508-1.jpg",price:499,save:1599},
-//  {img:"https://images.bewakoof.com/t320/i-m-your-father-oversized-fit-t-shirt-509669-1655219508-1.jpg",price:499,save:1599},
-//  {img:"https://images.bewakoof.com/t320/i-m-your-father-oversized-fit-t-shirt-509669-1655219508-1.jpg",price:499,save:1599},
-//  {img:"https://images.bewakoof.com/t320/i-m-your-father-oversized-fit-t-shirt-509669-1655219508-1.jpg",price:499,save:1599},
-//  {img:"https://images.bewakoof.com/t320/i-m-your-father-oversized-fit-t-shirt-509669-1655219508-1.jpg",price:499,save:1599}]
-//   localStorage.setItem("payblePaisa",JSON.stringify(items_data));
+  //  discountPrice: "999"
+  //  img: "https://images.bewakoof.com/t320/killmonger-half-sleeve-t-shirt-509349-1655101044-1.jpg"
+  //  name: "Men's Olive Killmonger Graphic Printed Oversized T-shirt"
+  //  pay: 299
+  //  price: "299"
+  //  save: 700
   let items_data = JSON.parse(localStorage.getItem("payblePaisa"))
- let div_con = document.querySelector("#appendItems")
+  console.log(items_data);
+  let div_con = document.querySelector("#appendItems")
 
- let totalsum = 0;
+ let discount = 0;
  let actualsum = 0;
  // maping data.
-  items_data.map(({img,price,save,name})=>{
+  items_data.map(({img,price,save,name,pay})=>{
+    
     let parent = document.createElement("div");
     parent.setAttribute("id","parent")
     let img_div = document.createElement("div");
@@ -39,8 +40,8 @@
     //console.log(delivery_day)
     parent.append(img_div,detail_div)
     div_con.append(parent);
-  totalsum +=save
-  actualsum  +=price 
+  discount +=save
+  actualsum  +=pay 
 })
 
 if(actualsum<499){
@@ -52,7 +53,7 @@ if(actualsum<499){
   free.innerText="FREE"
   free.style.color="green"
  }
- let discount = totalsum-actualsum
+ let totalsum =actualsum+discount;
  document.getElementById("total_price").innerText=`₹${totalsum}`
  document.getElementById("discount").innerText=`₹${discount}`
  document.getElementById("final_amount").innerText=`₹${actualsum}`
@@ -132,6 +133,7 @@ let codFun = () =>{
    //DEFAULT CALL DEBIT FUNCTION
    debitFun()
    let deta = JSON.parse(localStorage.getItem("dummyData"));
+  //  User details from Login Data
    let {email,name,address:{village,city,State}} = deta;
 
    let obj = {
@@ -157,7 +159,12 @@ buyer_name.innerText=`Delivering order to ${name}`
   address_box.append(buyer_name,village,city,State)
 
 
- 
+
+
+  // LOOK at THE ERROE IN CONSOLE
+let userdata=JSON.parse(localStorage.getItem("user"));
+console.log(userdata);
+document.getElementById("username").innerText=userdata.email; 
 
 
 

@@ -31,24 +31,13 @@ h1{
   letter-spacing: 0.1;
   font-family: 'Montserrat', sans-serif;
 }
-#Nav {
-  /* border: 2px solid red; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 30px;
-  width: 100%;
-  top: 0;
-  position: fixed;
-  height: 80px;
-  background-color: white;
-  border-bottom: 1px solid rgb(189, 187, 187);
-}
+
 #Nav1 {
   /* border: 1px solid red; */
+  /* top: 100px; */
+  /* position: fixed; */
   width: 100%;
-  top: 81px;
-  position: fixed;
+  margin-top: 50px;
   background-color: white;
 }
 #thing {
@@ -108,7 +97,7 @@ h1{
 #ss1,
 #ss3,
 #ss5{
-   margin-top: 170px;
+   margin-top: 10px;
 }
 #ss1 > img,
 #ss2 > img,
