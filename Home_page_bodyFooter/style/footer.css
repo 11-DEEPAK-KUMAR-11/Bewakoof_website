@@ -1,0 +1,179 @@
+#footer
+{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.863);
+    color:rgb(235, 229, 229);
+    padding-bottom: 100px;
+    justify-content: left;
+    align-items: left;
+
+}
+.footer_contact{
+    /* border: 1px solid blue; */
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    font-size: 12px;
+    
+}
+#footer_logo{
+    color: gold;
+    text-align: left;
+}
+.services{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.footer_custservice,.footer_company,.footer_connect,.footer_policy,.footer_pay{
+    /* border: 1px solid skyblue; */
+    line-height: 1px;
+    width: 20%;
+}
+.footer_custservice h2,.footer_company h2,.footer_connect h2,.footer_sbs h2,.footer_app h2,.footer_pay h2{
+    color: gold;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.footer_custservice div,.footer_company div,.footer_app div,.footer_pay div{
+    margin-top: 40px;
+}
+.footer_connect>div{
+    width: 100%;
+    margin-top: 30px;
+}
+.footer_connect div{
+    margin-bottom: 10px;
+}
+.social{
+    display: flex;
+}
+.social img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.social h3{
+    font-size: 12px;
+}
+.footer_sbs{
+    /* border: 1px solid skyblue; */
+    width: 30%;
+    line-height: 1px;
+}
+#sbs_inp{
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    margin-top: 30px;
+}
+#sbs_inp>input{
+    width: 60%;
+    border-width: 0px;
+    border:none;
+    border-bottom: 1px solid gold;
+    outline: none;
+    height: 26px;
+    padding-left: 10px;
+    background-color:transparent;
+    color: gray;
+    /* text-align: center; */
+}
+#sbs_head{
+    background-color: gold;
+    height: 27px;
+    padding: 0px 20px 0px 20px;
+    /* padding-top: 5px; */
+}
+#sbs_head h2{
+    color: black;
+    font-size: 12px;
+}
+.footer_policy div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.footer_policy h3{
+    font-size: 12px;
+    font-weight: normal;
+}
+.footer_policy div>img{
+    width: 25px;
+    height: 25px;
+}
+.footer_app{
+    /* border: 1px solid skyblue; */
+    width: 30%;
+    line-height: 1px;
+}
+.footer_app>div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+hr{
+    color: white;
+    width: 80%;
+}
+
+/* Footer Categories */
+#footer_cate{
+    /* border: 1px solid blue; */
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    margin: auto;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+#footer_cate>div{
+    margin-top: 20px;
+}
+#footer_cate>div h2{
+    margin-bottom: 30px;
+}
+.footer_mens,.footer_womens,.footer_accessories{
+    line-height: 1px;
+}
+.footer_mens div,.footer_womens div,.footer_accessories div{
+    /* border: 1px solid blue; */
+    margin-bottom: 30px;
+}
+#footerblue{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+}
+#footerblue h1{
+    margin-bottom: -10px;
+}
+#footerblue a{
+    text-decoration: none;
+    color: #51cccc;
+    font-size: 20px;
+}
+
+/* Footer description */
+#footer_desc{
+    /* border: 1px solid red; */
+    width: 80%;
+    color: rgb(224, 218, 218);
+    padding-bottom: 100px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
