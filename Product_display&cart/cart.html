@@ -529,7 +529,12 @@
             function paynow()
             {
               var payableAmount={
-                pay:total
+                pay:total,
+                save:saved,
+                img:el.img,
+                name:el.proName,
+                price:el.price,
+                discountPrice:el.disPrice
               }
               console.log(payableAmount);
 
@@ -568,6 +573,32 @@
             document.getElementById("items").append(box);
         })
     }
+
+
+    // function incre() {
+    //             // event.preventDefault();
+    //             count++;
+    //             quantity.innerText = `Quantity : ${count}`;
+
+    //             localStorage.setItem("counterValue", count)
+
+    //             window.location.reload();
+    //         }
+
+
+            // function decre() {
+            //     // event.preventDefault();
+            //     count--;
+            //     if (count === 0) {
+            //         count = 1;
+            //     }
+            //     quantity.innerText = `Quantity : ${count}`;
+
+            //     localStorage.setItem("counterValue", count);
+
+            //     window.location.reload();
+
+            // }        
 
     function removeProduct(el, index) {
 
