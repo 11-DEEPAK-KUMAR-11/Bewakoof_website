@@ -2,7 +2,7 @@
 Our Creditable Members and Their Contributions-
 1. Haris - Login and sign up
 2. Shabaz- Navbar
-3. Ninad - Landing home page
+3. Ninad - Landing home page & Footer
 4. Sukanta-Product page
 5. Deepak -Display page and cart
 6. Sahnawaz-Payment Gateway
