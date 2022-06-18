@@ -1,0 +1,66 @@
+#container{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    background-color: #fff;
+    box-shadow: 0 2px 31px 0 hsl(0deg 0% 73% / 7%);
+    /* border:1px red solid; */
+    /* display: flex; */
+    height: 650px;
+   
+}
+.text{
+    font-weight: bold;
+    color: black;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    letter-spacing: .5px;
+    font-weight: bold;
+}
+#mail{
+    margin-top: 60px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #bcbcbc;
+    width: 60%;
+    font-size: 16px;
+}
+#pass{
+    margin-top: 80px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #bcbcbc;
+    width: 60%;
+    font-size: 16px;
+}
+p{
+   color:#42a2a2;
+   margin-top: 100px;
+}
+#btn{
+    border-radius: 5px;
+    outline: none;
+    letter-spacing: .5px;
+    background-color: #42a2a2;
+    border: none;
+    color: #fff;
+    letter-spacing:1px;
+    font-family:'Montserrat', sans-serif;
+    font-size: 16px;
+    padding: 20px 200px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+body{
+    background-image: linear-gradient(0deg,#fff4c4,#fff);
+}
+#error_mail p{
+    color: red;
+    margin-top: 9px;
+    margin-left: -300px;
+
+}

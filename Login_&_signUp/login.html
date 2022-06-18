@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginPage</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div id="whole_page">
+        <!-- 1-st Box -->
+        <div id="first_box">
+            <div><h2 id="head">Welcome to the world of Bewakoof!</h2></div>
+        <div id="left_img_box"><img src="https://images.bewakoof.com/web/group-19-1617704502.png" alt="" id="left_image"></div>
+        </div>
+        <!-- scnd-box -->
+        <div id="scnd_box">
+            <div id="heading_scnd">
+                <div><h1 id="head_right" class="letters">Log in / Sign up</h1></div>
+            <div><p id="disc" class="letters">for Latest trends, exciting offers and everything Bewakoof!</p></div>
+            </div>
+            
+            <!-- mobile-Number & button -->
+            <div id="input_whole_box">
+                <div class="flag_num">
+                    <img src="https://images.bewakoof.com/web/india-flag-round-1639566913.png" alt="" class="flag">
+                    <span class="font_color">+91</span>
+                </div>
+                
+                <input maxlength="10" type="tel" id="mobile" placeholder="Enter Mobile Number">
+            </div>
+            <div id="mob_error"></div>
+            <div id="btn_out"><button onclick="mobileCheck()" id="btn">CONTINUE</button></div>
+            <!-- Line Between -->
+            <hr>
+            <div id="socials">
+                <div  class="flag_num">
+                   <button id="email" onclick="email()"> <img src="https://images.bewakoof.com/web/carbon-email-1620039620.png" alt="" class="flag">
+                    <!-- <h3>
+                        <a href="">CONTINUE WITH EMAIL</a>
+                    </h3> -->
+                    CONTINUE WITH EMAIL
+                </button>
+                </div>
+                <div id="bel_social">
+                    <div class="flag_num">
+                        <button  id="google" onclick="google()">
+                        <img src="https://images.bewakoof.com/web/group-3-2x-1558356035.png" alt="" class="flag">
+                        <!-- <h3>
+                            <a href=
+                            "https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?client_id=140947639712-ukpgitufo1i1gc6nmd8o1l14tcu72nt2.apps.googleusercontent.com&scope=email%20profile%20openid&response_type=token&redirect_uri=https%3A%2F%2Fwww.bewakoof.com%2Flogin%2Fgoogle&flowName=GeneralOAuthFlow">GOOGLE</a>
+                        </h3> -->
+                      GOOGLE
+                    </button>
+                    </div>
+                    <div  class="flag_num">
+                       <button id="facebook" onclick="facebook()">
+                        <img src="https://images.bewakoof.com/web/bi-facebook2x-1620886445.png" alt="" class="flag">
+                        <!-- <h3>
+                            <a href=
+                            "https://www.facebook.com/login.php?skip_api_login=1&api_key=1548728332017744&kid_directed_site=0&app_id=1548728332017744&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D1548728332017744%26scope%3Dpublic_profile%252Cemail%252Cuser_birthday%252Cuser_gender%252Cuser_hometown%252Cuser_location%26response_type%3Dtoken%26redirect_uri%3Dhttps%253A%252F%252Fwww.bewakoof.com%252Flogin%252Ffacebook%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3Deb213455-cd6c-405f-a862-d6d9ea87ad9f%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fwww.bewakoof.com%2Flogin%2Ffacebook%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%23_%3D_&display=page&locale=en_GB&pl_dbl=0">FACEBOOK</a>
+                        </h3> -->
+                        FACEBOOK
+                    </button>
+                    </div>
+                </div>
+            </div>
+            <p id="terms">By creating an account or logging in, you agreee with Bewakoof,s
+                <a href="https://www.bewakoof.com/terms-and-conditions" target="_blank" class="conditions">Terms and conditions</a>
+                and
+                <a href="https://www.bewakoof.com/privacy-policy-and-disclaimer" target="_blank" class="conditions">Privacy Policy</a>
+                .
+             </p>
+        </div>
+        
+    </div>
+</body>
+</html>
+<script src="../scripts/login.js"></script>
