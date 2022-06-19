@@ -145,7 +145,7 @@
                     <h3
                         style="color:#000000; font-family:montserrat-regular,sans-serif!important;font-size: 14px;font-weight: bold;margin-top: 2px;">
                         SELECT SIZE</h3>
-                    <h3><a class="font" href="">Size guide</a></h3>
+                    <h3><a class="font" href="size.html">Size guide</a></h3>
                 </div>
                 <div id="kuch">
                     <div class="nap" id="s">S</div>
@@ -159,9 +159,9 @@
 
             <div id="addToCart">
 
-                <div id="bag"><img src="https://images.bewakoof.com/web/ic-web-head-cart.svg" alt="bag"
+                <div id="bagtocart"><img src="https://images.bewakoof.com/web/ic-web-head-cart.svg" alt="bag"
                         class="bag-icon"><span class="">ADD TO BAG</span></div>
-                <div id="wishlist"><span id="heart">🤍</span>
+                <div id="wishlist"><span id="heartmore">🤍</span>
                     <P id="wish">WISHLIST</P>
                 </div>
 
@@ -192,7 +192,7 @@
     function changeColor() {
 
         document.getElementById("wish").innerText = "WISHLISTED";
-        document.getElementById("heart").innerText = "❤️";
+        document.getElementById("heartmore").innerText = "❤️";
         count++;
 
         if (count > 1) {
@@ -219,7 +219,7 @@
     }
 
 
-    document.querySelector("#bag").addEventListener("click", addToCart)
+    document.querySelector("#bagtocart").addEventListener("click", addToCart)
 
     function addToCart() {
 

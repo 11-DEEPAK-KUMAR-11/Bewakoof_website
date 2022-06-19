@@ -172,7 +172,7 @@
     justify-content: space-between;
     margin-bottom: 20px;
 }
-#bag{
+#bagtocart{
     width: 50%;
     background-color: #ffd84d;
     border-color: transparent;
@@ -183,21 +183,26 @@
     border-radius: 3px;
     cursor: pointer;
 }
-#bag>img{
+#bagtocart>img{
     margin-right: 10px;
 }
 #wishlist{
-    width:40%;
+    width:30%;
     border: 2px solid rgb(241, 233, 233);
     border-radius: 3px;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     font-family: sans-serif;
     cursor: pointer;
+    /* border: 1px solid green; */
+
 }
-#heart{
-    margin-right: 10px;
+/* #wish{
+    margin-left: -15px;
+} */
+#heartmore{
+    margin-right:10px;
 }
 #username{
     font-size: 30px;
